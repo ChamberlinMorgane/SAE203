@@ -1,10 +1,21 @@
 <template>
   <main>
+    <div class="mt-20 mb-20">
+      <div class="h-1 w-full bg-white"></div>
+      <div class="flex items-center justify-between py-8">
+        <div class="h-1 w-1/3 bg-white"></div>
+        <div class="flex w-1/3 justify-around">
+          <h2 class="font-staatliches text-3xl">ARTISTES</h2>
+        </div>
+        <div class="h-1 w-1/3 bg-white"></div>
+      </div>
+      <div class="h-1 w-full bg-white"></div>
+    </div>
     <p class="mt-28 flex justify-center text-2xl font-bold text-white">EUROPE</p>
     <line class="mb-10 flex w-20 justify-center border-4 border-solid border-white"></line>
 
     <div>
-      <card nom="DJ SNAKE" image="public/src/assets/images/djsnake.jpg" />
+      <Card nom="DJ SNAKE" image="public/src/assets/images/djsnake.jpg" />
     </div>
 
     <div class="ml-7 mr-7 grid grid-cols-2 gap-11">

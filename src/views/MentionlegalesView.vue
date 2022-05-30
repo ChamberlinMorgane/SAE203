@@ -1,4 +1,15 @@
 <template>
+  <div class="mt-20 mb-20">
+    <div class="h-1 w-full bg-white"></div>
+    <div class="flex items-center justify-between py-8">
+      <div class="h-1 w-1/3 bg-white"></div>
+      <div class="flex w-1/3 justify-around">
+        <h2 class="font-staatliches text-3xl">MENTIONS LÉGALES</h2>
+      </div>
+      <div class="h-1 w-1/3 bg-white"></div>
+    </div>
+    <div class="h-1 w-full bg-white"></div>
+  </div>
   <p class="m-auto mt-28 flex justify-center text-lg">CONSEIL GÉNÉRAL D’UTILISATION</p>
   <p class="m-auto mt-24 w-5/6 justify-center">
     Cette politique de confidentialité décrit nos politiques et procédures sur la collecte, l'utilisation et la divulgation de vos

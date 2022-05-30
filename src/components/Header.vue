@@ -7,13 +7,13 @@
         </div>
         <div class="h-6 w-full">
           <div class="absolute left-[244.5px] top-[35.09px] flex w-[1160px] items-center justify-between">
-            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-black" to="/Artistes">Artistes</RouterLink>
-            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-black" to="/Programmation"
+            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-black" to="/artistes">Artistes</RouterLink>
+            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-black" to="/programmation"
               >Programmation</RouterLink
             >
-            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-black" to="/Festival">Festival</RouterLink>
-            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-black" to="/Festival">Concert</RouterLink>
-            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-black" to="/Contact">Contact</RouterLink>
+            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-black" to="/festival">Festival</RouterLink>
+            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-black" to="/concert">Concert</RouterLink>
+            <RouterLink class="flex-shrink-0 flex-grow-0 text-center text-[22px] font-bold text-black" to="/contact">Contact</RouterLink>
           </div>
         </div>
       </div>
