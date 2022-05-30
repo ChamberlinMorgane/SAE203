@@ -19,7 +19,7 @@
         DU VENDREDI 1ER JUILLET 2022 AU DIMANCHE 3 JUILLET 2022 LA VILLE DE GRENOBLE OUVRE L’UN DES PLUS GRAND FESTIVAL DE FRANCE MAIS
         ATTENTION LES PLACES SONT LIMITÉES ALORS NE PERDEZ PAS DE TEMPS RESERVEZ VOS PLACES
       </p>
-      <Bouton class="float-right" />
+      <Bouton nom="Réservez vos billets en quelques cliques" class="float-right" />
     </div>
     <div class="m-auto mt-24 flex h-[172.63px] w-4/6 justify-center gap-5">
       <img src="src/assets/images/angele.jpg" class="flex-grow self-stretch rounded-[32px] object-cover" />
@@ -31,7 +31,7 @@
     <div class="relative m-auto flex h-[122px] w-4/6 justify-center gap-2.5 rounded-[32px] bg-indigo-100 px-[248px] py-[27px]">
       <p class="h-[68px] w-4/6 flex-grow self-stretch text-center text-4xl text-black">DÉCOUVRIR TOUTE LA PROGRAMMATION</p>
     </div>
-    <Bouton class="m-auto w-3/6 justify-center" />
+    <Bouton nom="Réservez vos billets en quelques cliques !!" class="m-auto w-3/6 justify-center" />
 
     <div class="relative m-auto h-[447px] w-[1084px] justify-center">
       <div

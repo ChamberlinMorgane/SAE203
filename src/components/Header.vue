@@ -3,7 +3,7 @@
     <div class="h-[104.98px] flex-shrink-0 flex-grow-0 self-stretch">
       <div class="h-[81px] w-full">
         <div class="absolute left-[26.5px] top-[15.51px] m-auto flex w-full flex-col items-start justify-between gap-2.5">
-          <LogoHeader />
+          <a href="/"><LogoHeader /></a>
         </div>
         <div class="h-6 w-full">
           <div class="absolute left-[244.5px] top-[35.09px] flex w-[1160px] items-center justify-between">

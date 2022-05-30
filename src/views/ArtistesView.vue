@@ -3,6 +3,10 @@
     <p class="mt-28 flex justify-center text-2xl font-bold text-white">EUROPE</p>
     <line class="mb-10 flex w-20 justify-center border-4 border-solid border-white"></line>
 
+    <div>
+      <card nom="DJ SNAKE" image="public/src/assets/images/djsnake.jpg" />
+    </div>
+
     <div class="ml-7 mr-7 grid grid-cols-2 gap-11">
       <div class="relative flex flex-grow flex-col items-center justify-start gap-5 rounded-[18px] bg-cyan-600 py-2">
         <img src="src/assets/images/djsnake.jpg" class="h-[241px] w-[404.44px] flex-shrink-0 flex-grow-0 rounded-[32px] object-cover" />
@@ -244,5 +248,6 @@
 </template>
 
 <script>
-export default {};
+import Card from "../components/Card.vue";
+export default { Card };
 </script>
