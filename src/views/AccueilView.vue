@@ -1,27 +1,31 @@
 <template>
-  <main>
-    <div class="ml-7 mr-7 grid grid-cols-2 gap-11">
-      <div class="relative flex flex-grow flex-col items-center justify-start gap-5 rounded-[18px] bg-cyan-600 py-2">
-        <img src="src/assets/images/djsnake.jpg" class="h-[241px] w-[404.44px] flex-shrink-0 flex-grow-0 rounded-[32px] object-cover" />
-        <p class="h-11 w-[463.78px] flex-shrink-0 flex-grow-0 self-stretch text-center text-3xl text-white"></p>
-        <div
-          class="relative flex w-[466px] flex-shrink-0 flex-grow-0 flex-col items-start justify-start gap-[5px] overflow-hidden pb-[5px]"
-        >
-          <span class="h-11 w-[466px] flex-shrink-0 flex-grow-0 text-center text-[25px] font-bold text-white">DJ SNAKE </span><br />
-          <p class="h-11 w-[466px] flex-shrink-0 flex-grow-0 text-center text-[25px] font-bold text-white">EN SAVOIR PLUS</p>
-        </div>
-      </div>
+  <main class="w-100%">
+    <div class="relative flex h-[172.63px] w-3/6 place-content-center items-start justify-center gap-5">
+      <img src="src/assets/images/angele.jpg" class="flex-grow self-stretch rounded-[32px] object-cover" /><img
+        src="src/assets/images/cardib.jpg"
+        class="flex-grow self-stretch rounded-[32px] object-cover"
+      /><img src="src/assets/images/sabrina.jpg" class="flex-grow self-stretch rounded-[32px] object-cover" />
+    </div>
 
-      <div class="relative flex flex-grow flex-col items-center justify-start gap-5 rounded-[18px] bg-cyan-600 py-2">
-        <img src="src/assets/images/edsheeran.jpg" class="h-[241px] w-[404.44px] flex-shrink-0 flex-grow-0 rounded-[32px] object-cover" />
-        <p class="h-11 w-[463.78px] flex-shrink-0 flex-grow-0 self-stretch text-center text-3xl text-white"></p>
-        <div
-          class="relative flex w-[466px] flex-shrink-0 flex-grow-0 flex-col items-start justify-start gap-[5px] overflow-hidden pb-[5px]"
-        >
-          <span class="h-11 w-[466px] flex-shrink-0 flex-grow-0 text-center text-[25px] font-bold text-white">ED SHEERAN</span><br />
-          <p class="h-11 w-[466px] flex-shrink-0 flex-grow-0 text-center text-[25px] font-bold text-white">EN SAVOIR PLUS</p>
-        </div>
-      </div>
+    <div
+      class="
+        relative
+        flex
+        h-[106px]
+        w-[514px]
+        flex-shrink-0
+        items-start
+        justify-start
+        gap-7
+        self-stretch
+        overflow-hidden
+        rounded-[48px]
+        bg-red-400
+        px-10
+        py-6
+      "
+    >
+      <p class="h-[58px] w-[434px] flex-grow self-stretch text-center text-[50px] font-bold text-black">LE 1ER JUILLET</p>
     </div>
   </main>
 </template>
