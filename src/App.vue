@@ -120,7 +120,7 @@
 <script>
 import IconLogo from "./components/icons/IconLogo.vue";
 import { FilmIcon } from "@heroicons/vue/outline";
-import Header from "./components/icons/Header.vue";
+import Header from "./components/Header.vue";
 
 export default {
   components: { IconLogo, FilmIcon, Header },

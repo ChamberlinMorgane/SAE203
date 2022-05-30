@@ -1,9 +1,4 @@
 <template>
-  <p class="h-[30.71px] w-[222.32px] text-center text-[25px] font-bold text-black">ARTISTES</p>
-  <p class="h-[30.71px] w-[334.47px] text-center text-[25px] font-bold text-black">PROGRAMMATION</p>
-  <p class="h-[30.71px] w-[218.35px] text-center text-[25px] font-bold text-black">FESTIVAL</p>
-  <p class="h-[30.71px] w-[221.32px] text-center text-[25px] font-bold text-black">CONCERT</p>
-  <p class="h-[30.71px] w-[215.37px] text-center text-[25px] font-bold text-black">CONTACT</p>
   <div class="relative flex flex-col items-start justify-start pr-[30px]">
     <svg
       width="121"
@@ -128,5 +123,4 @@
       ></path>
     </svg>
   </div>
-  <div class="h-[151px] w-[1440px] bg-cyan-500"></div>
 </template>

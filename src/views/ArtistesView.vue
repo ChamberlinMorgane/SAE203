@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-gray-800">
+  <main>
     <p class="mt-28 flex justify-center text-2xl font-bold text-white">EUROPE</p>
     <line class="mb-10 flex w-20 justify-center border-4 border-solid border-white"></line>
 
