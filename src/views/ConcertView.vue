@@ -11,12 +11,16 @@
     <div class="h-1 w-full bg-white"></div>
   </div>
 
-  <img class="h-[900px] w-full" src="src/assets/images/angele-concert.jpg" alt="angele" />
-  <div class="float-right mr-44 w-1/5 bg-gray-300">
-    <p class="text-black">Retrouvez Angele le 1er et le 3 Juillet prochain dans la grande scene Est à 21h pour un concert de dingue</p>
-    <img src="src/assets/icones/spotify.svg" alt="spotify" />
-    <img src="src/assets/icones/insta-noir.svg" alt="instagram" />
-    <img src="src/assets/icones/twitter-noir.svg" alt="twitter" />
+  <img class="h-2/6 w-full" src="src/assets/images/angele-concert.jpg" alt="angele" />
+  <div class="ml-auto mr-44 h-96 w-1/5 bg-gray-300">
+    <p class="font-work-sans text-xl font-bold text-black">
+      Retrouvez Angele le 1er et le 3 Juillet prochain dans la grande scene Est à 21h pour un concert de dingue
+    </p>
+    <div class="m-auto flex w-9 justify-center gap-11">
+      <img src="src/assets/icones/spotify.svg" alt="spotify" />
+      <img src="src/assets/icones/insta-noir.svg" alt="instagram" />
+      <img src="src/assets/icones/twitter-noir.svg" alt="twitter" />
+    </div>
   </div>
   <div class="m-auto mt-72 flex justify-center">
     <div class="relative flex h-[399px] w-[1170.8px] items-start justify-start gap-[33px]">
