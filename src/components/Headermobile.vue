@@ -7,27 +7,24 @@
       class="absolute left-0 top-0 bottom-0 right-0 h-screen -translate-x-full bg-blue-300 opacity-0"
       :class="MenuOpen && 'translate-x-0 opacity-100'"
     >
-      <ul class="flex h-full flex-col items-center justify-center gap-14 text-left text-3xl font-bold">
+      <ul class="flex h-full flex-col items-center justify-center gap-14 text-left font-work-sans text-3xl font-bold text-black">
         <li>
-          <RouterLink to="/" @click="MenuOpen = !MenuOpen">Electro Bancal</RouterLink>
+          <RouterLink to="/" @click="MenuOpen = !MenuOpen">Accueil</RouterLink>
         </li>
         <li>
-          <RouterLink to="/Programmation" @click="MenuOpen = !MenuOpen">Programmation</RouterLink>
+          <RouterLink to="/programmation" @click="MenuOpen = !MenuOpen">Programmation</RouterLink>
         </li>
         <li>
-          <RouterLink to="/Festival" @click="MenuOpen = !MenuOpen">Festival</RouterLink>
+          <RouterLink to="/festival" @click="MenuOpen = !MenuOpen">Festival</RouterLink>
         </li>
         <li>
-          <RouterLink to="/Concert" @click="MenuOpen = !MenuOpen">Concert</RouterLink>
+          <RouterLink to="/concert" @click="MenuOpen = !MenuOpen">Concert</RouterLink>
         </li>
         <li>
-          <RouterLink to="/Artistes" @click="MenuOpen = !MenuOpen">Artistes</RouterLink>
+          <RouterLink to="/artistes" @click="MenuOpen = !MenuOpen">Artistes</RouterLink>
         </li>
         <li>
-          <RouterLink to="/ArtisteSeul" @click="MenuOpen = !MenuOpen">Martin Garrix</RouterLink>
-        </li>
-        <li>
-          <RouterLink to="/Contact" @click="MenuOpen = !MenuOpen">Contact</RouterLink>
+          <RouterLink to="/contact" @click="MenuOpen = !MenuOpen">Contact</RouterLink>
         </li>
       </ul>
     </nav>

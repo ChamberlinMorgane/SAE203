@@ -12,6 +12,7 @@ module.exports = {
       "fontFamily": {
         'permanent-marker': "'Permanent Marker', sans-serif",
         'work-sans': "'Work Sans', sans-serif",
+        'bebas-neue': "'Bebas-Neue', sans-serif",
       },
     },
 

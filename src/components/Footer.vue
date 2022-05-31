@@ -76,11 +76,11 @@
       <a href="https://www.twitter.com/"><img src="src/assets/icones/twitter.svg" alt="" /></a>
     </div>
     <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-center gap-8 self-stretch">
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/Programmation">Programmation</a>
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/Festival">Festival</a>
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/Artistes">Artistes</a>
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/Contact">Contact</a>
-      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/MentionsLegales">Mentions légales</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/programmation">Programmation</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/festival">Festival</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/artistes">Artistes</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/contact">Contact</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/mentionsLegales">Mentions légales</a>
     </div>
   </div>
 </template>

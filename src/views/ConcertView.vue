@@ -12,7 +12,7 @@
   </div>
 
   <img class="h-2/6 w-full" src="src/assets/images/angele-concert.jpg" alt="angele" />
-  <div class="ml-auto mr-44 h-96 w-1/5 bg-gray-300">
+  <div class="ml-auto mr-44 h-auto w-1/5 bg-gray-300">
     <p class="py:11 px-12 font-work-sans text-sm font-bold text-black lg:py-28 lg:text-2xl">
       Retrouvez Angele le 1er et le 3 Juillet prochain dans la grande scene Est à 21h pour un concert de dingue
     </p>

@@ -1,6 +1,6 @@
 <template>
   <div class="w-6/6 relative my-7 flex items-start justify-center gap-7 overflow-hidden rounded-[48px] bg-red-400 px-10 py-6">
-    <p class="w-1/3 flex-grow text-center font-work-sans text-xl font-extrabold text-black">{{ nom }}</p>
+    <p class="w-1/3 flex-grow text-center font-bebas-neue text-xl font-bold text-black">{{ nom }}</p>
   </div>
 </template>
 
