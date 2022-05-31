@@ -29,7 +29,9 @@
       <img src="src/assets/images/sabrina.jpg" class="flex-grow self-stretch rounded-[32px] object-cover" />
     </div>
     <div class="relative m-auto flex h-[122px] w-4/6 justify-center gap-2.5 rounded-[32px] bg-indigo-100 px-[248px] py-[27px]">
-      <p class="h-[68px] w-4/6 flex-grow self-stretch text-center text-4xl text-black">DÉCOUVRIR TOUTE LA PROGRAMMATION</p>
+      <p class="h-[68px] w-4/6 flex-grow self-stretch text-center font-work-sans text-4xl font-extrabold text-black">
+        DÉCOUVRIR TOUTE LA PROGRAMMATION
+      </p>
     </div>
     <Bouton nom="Réservez vos billets en quelques cliques !!" class="m-auto w-3/6 justify-center" />
 

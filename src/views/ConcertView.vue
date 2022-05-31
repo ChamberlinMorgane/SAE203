@@ -39,10 +39,12 @@
     </div>
   </div>
 
-  <div class="relative m-auto mt-28 flex h-[174px] w-4/6 justify-center overflow-hidden">
-    <div class="relative h-[166px] w-3/6 bg-white"></div>
-    <p class="absolute left-[180px] top-[68px] h-[72px] w-2/6 text-center text-[40px] text-gray-900">6 000 000 d’auditeurs par mois</p>
-    <img src="src/assets/icones/spotify-color.svg" class="absolute left-[49px] top-[26px] h-32 w-32 object-cover" />
+  <div class="relative m-auto mt-28 mb-24 flex h-[174px] w-4/6 justify-center overflow-hidden">
+    <div class="relative h-5/6 w-4/6 bg-white"></div>
+    <p class="absolute top-16 ml-auto w-2/6 text-center font-bebas-neue text-xl text-gray-900 lg:text-4xl">
+      6 000 000 d’auditeurs par mois
+    </p>
+    <img src="src/assets/icones/spotify-color.svg" class="absolute top-6 mr-80 h-24 w-24 object-cover font-bold lg:h-32 lg:w-32" />
   </div>
   <p class="m-auto flex justify-center text-2xl">RETROUVEZ D’AUTRES ARTISTES LES MEMES JOURS QU’ELLE !!!</p>
   <div class="m-auto flex h-2 w-3/6 justify-center bg-purple-700"></div>

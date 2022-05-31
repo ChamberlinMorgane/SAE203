@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-7 mr-7 grid grid-cols-2 gap-11">
+  <div class="ml-7 mr-7 grid gap-11">
     <div class="relative flex flex-grow flex-col items-center justify-start gap-5 rounded-[18px] bg-cyan-800 py-2">
       <img class="h-[241px] w-[404.44px] flex-shrink-0 flex-grow-0 rounded-[32px] object-cover" :src="image" />
       <p class="h-11 w-[463.78px] flex-shrink-0 flex-grow-0 self-stretch text-center text-3xl text-white"></p>

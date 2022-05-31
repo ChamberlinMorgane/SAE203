@@ -14,7 +14,7 @@
   <img class="m-auto flex h-2/6 w-3/6 justify-center" src="src/assets/images/plan.jpg" alt="plan du festival" />
   <p class="m-auto mt-11 flex justify-center text-2xl font-bold">Découvrez nos 3 grandes scene et nos deux petite</p>
   <p class="m-auto mt-11 flex justify-center text-3xl font-bold">Les grandes scènes</p>
-  <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
     <div>
       <img class="mt-20 h-5/6 w-5/6" src="src/assets/images/scenenord.jpg" alt="scene nord" />
       <Bouton nom="Scène Nord" class="m-auto w-1/2 justify-center" />
@@ -31,7 +31,7 @@
 
   <p class="relative m-auto mt-32 flex justify-center text-3xl font-bold">Les petites scènes</p>
 
-  <div class="grid grid-cols-1 lg:w-4/6 lg:grid-cols-2">
+  <div class="grid grid-cols-1 justify-items-center lg:w-4/6 lg:grid-cols-2">
     <div>
       <img class="mt-11 h-5/6 w-5/6" src="src/assets/images/scenecentre.jpg" alt="scene centre" />
       <Bouton nom="Scène Centre" class="m-auto w-1/2 justify-center bg-pink-400" />
@@ -44,13 +44,59 @@
   </div>
 
   <p>Notre équipe qui s'est occupé de mettre en oeuvre ce fantastiqur festival</p>
-  <img src="src/assets/images/personne1.jpg" alt="premiere personne" />
-  <img src="src/assets/images/personne2.jpg" alt="deuxième personne" />
-  <img src="src/assets/images/personne3.jpg" alt="troisième personne" />
-  <img src="src/assets/images/personne4.jpg" alt="quatrième personne" />
-  <img src="src/assets/images/personne5.jpg" alt="cinquième personne" />
-  <img src="src/assets/images/personne6.jpg" alt="sixième personne" />
-  <img src="src/assets/images/personne7.jpg" alt="septième personne" />
+
+  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+    <img class="h-6/6 w-2/6" src="src/assets/images/personne1.jpg" alt="premiere personne" />
+    <img class="h-6/6 w-2/6" src="src/assets/images/personne2.jpg" alt="deuxième personne" />
+    <img class="h-6/6 w-2/6" src="src/assets/images/personne3.jpg" alt="troisième personne" />
+    <img class="h-6/6 w-2/6" src="src/assets/images/personne4.jpg" alt="quatrième personne" />
+    <img class="h-6/6 w-2/6" src="src/assets/images/personne5.jpg" alt="cinquième personne" />
+    <img class="h-6/6 w-2/6" src="src/assets/images/personne6.jpg" alt="sixième personne" />
+    <img class="h-6/6 w-2/6" src="src/assets/images/personne7.jpg" alt="septième personne" />
+  </div>
+
+  <div
+    class="
+      relative
+      flex
+      h-[124px]
+      w-[1194px]
+      items-start
+      justify-start
+      gap-2.5
+      overflow-hidden
+      rounded-[27px]
+      border-4 border-white
+      bg-black
+      p-[22px]
+    "
+  >
+    <p class="h-20 w-[1150px] flex-grow self-stretch text-center text-[35px] text-white">
+      Ce festival est fait de facon ethique avec trois équipes qui oeuvre tous les jours au bon entretient de l’endroit
+    </p>
+  </div>
+  <img class="ml-auto h-1/3 w-1/3" src="src/assets/images/image-a-propos-poubelle.jpg" alt="image poubelle" />
+  <img class="h-1/3 w-1/3" src="src/assets/images/image-a-propos-recyclage.jpg" alt="image recyclage" />
+  <div
+    class="
+      relative
+      flex
+      h-[218px]
+      w-[466px]
+      items-start
+      justify-start
+      gap-7
+      overflow-hidden
+      rounded-[14px]
+      border-4 border-white
+      bg-black
+      p-[25px]
+    "
+  >
+    <p class="h-[168px] w-[416px] flex-grow self-stretch text-center text-[35px] text-white">
+      Pour preserver cet endroit il sera mis a disposition des poubelles de trie et nous vous invitons a les utiliser.
+    </p>
+  </div>
 </template>
 
 <script>
