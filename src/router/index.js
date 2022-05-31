@@ -8,6 +8,7 @@ import ContactView from '../views/ContactView.vue'
 import MentionlegalesView from '../views/MentionlegalesView.vue'
 import ArtisteView from '../views/ArtisteView.vue'
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [

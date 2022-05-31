@@ -1,6 +1,7 @@
 <template>
   <header>
-    <Header />
+    <Headermobile class="lg:hidden" />
+    <Header class="hidden lg:flex" />
   </header>
 
   <RouterView />
@@ -94,8 +95,9 @@
 import IconLogo from "./components/icons/IconLogo.vue";
 import { FilmIcon } from "@heroicons/vue/outline";
 import Header from "./components/Header.vue";
+import Headermobile from "./components/Headermobile.vue";
 
 export default {
-  components: { IconLogo, FilmIcon, Header },
+  components: { IconLogo, FilmIcon, Headermobile, Header },
 };
 </script>

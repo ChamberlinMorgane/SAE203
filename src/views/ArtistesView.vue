@@ -5,7 +5,7 @@
       <div class="flex items-center justify-between py-8">
         <div class="h-1 w-1/3 bg-white"></div>
         <div class="flex w-1/3 justify-around">
-          <h2 class="font-staatliches text-3xl">ARTISTES</h2>
+          <h2 class="text-3xl">ARTISTES</h2>
         </div>
         <div class="h-1 w-1/3 bg-white"></div>
       </div>
