@@ -9,7 +9,8 @@ module.exports = {
         // Ici vos couleurs exportées de Figma
       },
       "fontFamily": {
-        'permanent-marker': "'permanent marker'sans serif",
+        'permanent-marker': "'Permanent Marker', sans-serif",
+        'work-sans': "'Work Sans', sans-serif",
       },
     },
 
