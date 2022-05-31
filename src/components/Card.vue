@@ -1,18 +1,22 @@
 <template>
-  <div class="ml-7 mr-7 grid gap-11">
-    <div class="relative flex flex-grow flex-col items-center justify-start gap-5 rounded-[18px] bg-cyan-800 py-2">
-      <img class="h-[241px] w-[404.44px] flex-shrink-0 flex-grow-0 rounded-[32px] object-cover" :src="image" />
-      <p class="h-11 w-[463.78px] flex-shrink-0 flex-grow-0 self-stretch text-center text-3xl text-white"></p>
-      <div class="relative flex w-[466px] flex-shrink-0 flex-grow-0 flex-col items-start justify-start gap-[5px] overflow-hidden pb-[5px]">
-        <span class="h-11 w-[466px] flex-shrink-0 flex-grow-0 text-center font-permanent-marker text-[25px] font-bold text-white">{{
-          nom
-        }}</span
-        ><br />
-        <p class="h-11 w-[466px] flex-shrink-0 flex-grow-0 text-center text-[25px] font-bold text-white">EN SAVOIR PLUS</p>
+  <div class="w-96 rounded-lg bg-cyan-800">
+    <div class="container mx-auto">
+      <div class="block">
+        <div class="flex flex-col">
+          <div class="p-4">
+            <img class="rounded-lg" :src="image" alt="artiste" />
+          </div>
+          <figcaption class="p-4 text-center">
+            <h3 class="py-1 font-permanent-marker text-2xl font-semibold">{{ nom }}</h3>
+            <p class="">EN SAVOIR PLUS</p>
+          </figcaption>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
+
 
 <script>
 export default {

@@ -22,21 +22,11 @@
       <img src="src/assets/icones/twitter-noir.svg" alt="twitter" />
     </div>
   </div>
-  <div class="m-auto mt-72 flex justify-center">
-    <div class="relative flex h-[399px] w-[1170.8px] items-start justify-start gap-[33px]">
-      <img src="src/assets/images/angele4.jpg" class="flex-grow self-stretch object-cover" /><img
-        src="src/assets/images/angele3.jpg"
-        class="flex-grow self-stretch object-cover"
-      />
-    </div>
-  </div>
-  <div class="m-auto flex justify-center">
-    <div class="relative flex h-[266px] w-[1170.8px] items-start justify-start gap-5">
-      <img src="src/assets/images/angele1.jpg" class="flex-grow self-stretch object-cover" /><img
-        src="src/assets/images/angele2.jpg"
-        class="flex-grow self-stretch object-cover"
-      />
-    </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2">
+    <img src="src/assets/images/angele4.jpg" />
+    <img src="src/assets/images/angele3.jpg" />
+    <img src="src/assets/images/angele1.jpg" />
+    <img src="src/assets/images/angele2.jpg" />
   </div>
 
   <div class="relative m-auto mt-28 mb-24 flex h-[174px] w-4/6 justify-center overflow-hidden">

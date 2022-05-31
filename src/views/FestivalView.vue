@@ -43,16 +43,23 @@
     </div>
   </div>
 
-  <p>Notre équipe qui s'est occupé de mettre en oeuvre ce fantastiqur festival</p>
+  <p class="m-auto mt-56 flex justify-center">Notre équipe qui s'est occupé de mettre en oeuvre ce fantastiqur festival</p>
 
   <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
-    <img class="h-6/6 w-2/6" src="src/assets/images/personne1.jpg" alt="premiere personne" />
-    <img class="h-6/6 w-2/6" src="src/assets/images/personne2.jpg" alt="deuxième personne" />
-    <img class="h-6/6 w-2/6" src="src/assets/images/personne3.jpg" alt="troisième personne" />
-    <img class="h-6/6 w-2/6" src="src/assets/images/personne4.jpg" alt="quatrième personne" />
-    <img class="h-6/6 w-2/6" src="src/assets/images/personne5.jpg" alt="cinquième personne" />
-    <img class="h-6/6 w-2/6" src="src/assets/images/personne6.jpg" alt="sixième personne" />
-    <img class="h-6/6 w-2/6" src="src/assets/images/personne7.jpg" alt="septième personne" />
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne1.jpg" alt="premiere personne" />
+    <p class="font-work-sans">Community manager</p>
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne2.jpg" alt="deuxième personne" />
+    <p class="font-work-sans">chef de projet</p>
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne3.jpg" alt="troisième personne" />
+    <p class="font-work-sans">Organistrice</p>
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne4.jpg" alt="quatrième personne" />
+    <p class="font-work-sans">Juriste</p>
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne5.jpg" alt="cinquième personne" />
+    <p class="font-work-sans">Community manager</p>
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne6.jpg" alt="sixième personne" />
+    <p class="font-work-sans">Trésorier</p>
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne7.jpg" alt="septième personne" />
+    <p class="font-work-sans">Organisateur</p>
   </div>
 
   <div

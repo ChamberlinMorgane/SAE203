@@ -1,8 +1,8 @@
 <template>
-  <h1 class="font-inter text-tonic-200 text-decoration-line: bg-black text-center text-3xl underline">GUIDE DE STYLE</h1>
+  <h1 class="font-inter text-tonic-200 text-decoration-line: mt-48 text-center text-3xl underline">GUIDE DE STYLE</h1>
 
-  <h2 class="bg-tonic-200 font-inter my-10 mx-20 text-center text-2xl">Couleurs</h2>
-  <div class="grid grid-cols-2">
+  <h2 class="font-inter my-10 w-full bg-blue-200 text-center text-4xl text-black">Couleurs</h2>
+  <div class="grid grid-cols-2 justify-items-center">
     <div class="my-3 mx-4 h-12 w-20 rounded-2xl border-white bg-gray-800"></div>
     <div class="my-3 mx-4 h-12 w-20 rounded-2xl border-yellow-500 bg-yellow-100"></div>
     <div class="my-3 mx-4 h-12 w-20 rounded-2xl border-black bg-amber-600"></div>
@@ -21,8 +21,8 @@
     <div class="my-3 mx-4 h-12 w-20 rounded-2xl border-black bg-yellow-200"></div>
   </div>
 
-  <h2 class="bg-tonic-200 font-inter my-10 mx-20 text-center text-2xl">Typographie</h2>
-  <div class="m-10">
+  <h2 class="font-inter my-10 w-full bg-blue-200 text-center text-4xl text-black">Typographie</h2>
+  <div class="m-auto flex-grow justify-center">
     <p class="font-work-sans">Heading 1</p>
     <p class="font-bebas-neue">Heading 2</p>
     <p class="font-work-sans font-extrabold">Button</p>
@@ -33,16 +33,17 @@
     <p class="font-word-sans text-xs">Body XSmall</p>
   </div>
 
-  <h2 class="bg-tonic-200 font-inter my-10 mx-20 text-center text-2xl">Composants</h2>
+  <h2 class="font-inter my-10 w-full bg-blue-200 text-center text-4xl text-black">Composants</h2>
 
   <Bouton nom="achetez vos billets" class="mb-36" />
   <Card nom="nom de l'artiste" class="mb-36" />
   <Footer class="mb-36" />
+  <FooterTel />
   <Header class="mb-36" />
   <Headermobile class="mb-36" />
 
-  <h2 class="bg-tonic-200 font-inter my-10 mx-20 text-center text-2xl">Icones</h2>
-  <div class="m-10 grid w-64 grid-cols-4 justify-items-center gap-12">
+  <h2 class="font-inter my-10 w-full bg-blue-200 text-center text-4xl text-black">Icones</h2>
+  <div class="grid w-64 grid-cols-4 justify-items-center gap-12">
     <img src="src/assets/icones/arrow-narrow-up.svg" alt="fleche" />
     <img src="src/assets/icones/facebook-app-symbol.svg" alt="facebook blanc" />
     <img src="src/assets/icones/insta-noir.svg" alt="instagram-noir" />
