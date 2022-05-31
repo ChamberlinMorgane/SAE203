@@ -48,9 +48,9 @@
       <p class="float-right m-auto mr-10 mt-8 h-[69.97px] w-[244.75px] origin-top-left rotate-12 text-center text-3xl text-white">
         PASS FESTIVAL + CAMPING
       </p>
-      <div class="absolute left-[347px] top-[170px] h-[62px] w-[441px] rounded bg-[#e7c0f4]"></div>
-      <div class="absolute left-[-1px] top-[316.71px] h-[62.6px] w-[286.79px] rounded bg-[#e49494]"></div>
-      <div class="absolute left-[802.99px] top-[284.12px] h-[62.6px] w-[286.79px] rounded bg-[#debc89]"></div>
+      <div class="absolute left-[347px] top-[170px] h-[62px] w-[441px] rounded bg-violet-300"></div>
+      <div class="absolute left-[-1px] top-[316.71px] h-[62.6px] w-[286.79px] rounded bg-red-300"></div>
+      <div class="absolute left-[802.99px] top-[284.12px] h-[62.6px] w-[286.79px] rounded bg-yellow-200"></div>
       <p class="absolute left-[348px] top-[186px] h-[88px] w-[389px] text-center text-3xl text-black">A PARTIR DE 150€</p>
       <p class="absolute left-[26.82px] top-[328.64px] h-[36.57px] w-[252.38px] text-left text-3xl text-black">A PARTIR DE 43€</p>
       <p class="absolute left-[817.68px] top-[301.49px] h-[39.38px] w-[298.43px] text-left text-3xl text-black">A PARTIR DE 100€</p>

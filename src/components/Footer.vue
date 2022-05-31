@@ -81,6 +81,7 @@
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/artistes">Artistes</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/contact">Contact</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/mentionsLegales">Mentions légales</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="../views/guidestyle">Guide de style</a>
     </div>
   </div>
 </template>
