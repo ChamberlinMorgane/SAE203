@@ -28,7 +28,7 @@
     <img src="/img/angele1.jpg" />
     <img src="/img/angele2.jpg" />
   </div>
-
+  <img class="m-auto mt-36 mb-32 flex w-2/6 justify-center" src="/img/SPOTIFY.jpg" alt="card spotify" />
   <p class="m-auto flex justify-center text-2xl">RETROUVEZ D’AUTRES ARTISTES LES MEMES JOURS QU’ELLE !!!</p>
   <div class="m-auto flex h-2 w-3/6 justify-center bg-purple-700"></div>
 
