@@ -58,7 +58,7 @@
 
   <Bouton nom="Achetez vos billet dès maintenant" class="m-auto mt-32 flex w-3/6 justify-center border-4 border-black bg-white text-5xl" />
   <div class="m-auto my-32 flex justify-center gap-11">
-    <a href="artistes"><img class="w-16" src="src/assets/icones/arrow-narrow-up.svg" alt="flèche" /></a>
+    <a href="artistes"><img class="w-16" src="/icones/arrow-narrow-up.svg" alt="flèche" /></a>
     <a href="artistes"><p class="text-2xl font-bold">Découvrez la liste complet des artistes présent au festival</p></a>
   </div>
 </template>

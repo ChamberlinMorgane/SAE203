@@ -71,9 +71,9 @@
       </div>
     </div>
     <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-center gap-[50px]">
-      <a href="https://www.instagram.com/"><img src="src/assets/icones/instagram.svg" alt="icone instagram" /></a>
-      <a href="https://www.facebook.com/"><img src="src/assets/icones/facebook-app-symbol.svg" alt=" icone facebook" /></a>
-      <a href="https://www.twitter.com/"><img src="src/assets/icones/twitter.svg" alt="" /></a>
+      <a href="https://www.instagram.com/"><img src="/icones/instagram.svg" alt="icone instagram" /></a>
+      <a href="https://www.facebook.com/"><img src="/icones/facebook-app-symbol.svg" alt=" icone facebook" /></a>
+      <a href="https://www.twitter.com/"><img src="/icones/twitter.svg" alt="" /></a>
     </div>
     <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-center gap-8 self-stretch">
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="./programmation">Programmation</a>

@@ -361,6 +361,6 @@
   </form>
   <a
     href="https://www.google.fr/maps/place/Parc+Paul+Mistral/@45.1853783,5.734433,17z/data=!3m1!4b1!4m5!3m4!1s0x478af4f18f9b536d:0x27fb9854ae7d0cf2!8m2!3d45.1853745!4d5.736627"
-    ><img class="m-auto mb-20 flex h-2/6 w-3/6 justify-center" src="src/assets/images/carte.jpg" alt="carte"
+    ><img class="m-auto mb-20 flex h-2/6 w-3/6 justify-center" src="/img/carte.jpg" alt="carte"
   /></a>
 </template>

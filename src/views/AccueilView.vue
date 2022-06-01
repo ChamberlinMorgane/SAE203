@@ -2,16 +2,16 @@
   <main class="w-100%">
     <div class="relative flex w-full snap-x overflow-x-auto pb-14">
       <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img src="src/assets/images/carouselimg1.jpg" alt="image concert" />
+        <img src="/img/carouselimg1.jpg" alt="image concert" />
       </div>
       <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img src="src/assets/images/carouselimg2.jpg" alt="image concert" />
+        <img src="/img/carouselimg2.jpg" alt="image concert" />
       </div>
       <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img src="src/assets/images/carouselimg3.jpg" alt="image concert" />
+        <img src="/img/carouselimg3.jpg" alt="image concert" />
       </div>
       <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img src="src/assets/images/carouselimg4.jpg" alt="image concert" />
+        <img src="/img/carouselimg4.jpg" alt="image concert" />
       </div>
     </div>
     <div class="m-auto mt-20 mb-8 h-60 w-4/6 shrink-0 justify-center border-4 border-solid border-yellow-500 bg-yellow-100">
@@ -19,14 +19,14 @@
         DU VENDREDI 1ER JUILLET 2022 AU DIMANCHE 3 JUILLET 2022 LA VILLE DE GRENOBLE OUVRE L’UN DES PLUS GRAND FESTIVAL DE FRANCE MAIS
         ATTENTION LES PLACES SONT LIMITÉES ALORS NE PERDEZ PAS DE TEMPS RESERVEZ VOS PLACES
       </p>
-      <Bouton nom="Réservez vos billets en quelques cliques" class="float-right" />
+      <Bouton nom="Réservez vos billets en quelques cliques" class="right-auto" />
     </div>
     <div class="m-auto mt-24 flex h-[172.63px] w-4/6 justify-center gap-5">
-      <img src="src/assets/images/angele.jpg" class="flex-grow self-stretch rounded-[32px] object-cover" />
+      <img src="/img/angele.jpg" class="flex-grow self-stretch rounded-[32px] object-cover" />
 
-      <img src="src/assets/images/cardib.jpg" class="flex-grow self-stretch rounded-[32px] object-cover" />
+      <img src="/img/cardib.jpg" class="flex-grow self-stretch rounded-[32px] object-cover" />
 
-      <img src="src/assets/images/sabrina.jpg" class="flex-grow self-stretch rounded-[32px] object-cover" />
+      <img src="/img/sabrina.jpg" class="flex-grow self-stretch rounded-[32px] object-cover" />
     </div>
     <div class="relative m-auto flex h-[122px] w-4/6 justify-center gap-2.5 rounded-[32px] bg-indigo-100 px-[248px] py-[27px]">
       <p class="h-[68px] w-4/6 flex-grow self-stretch text-center font-work-sans text-4xl font-extrabold text-black">

@@ -44,14 +44,13 @@
 
   <h2 class="font-inter my-10 w-full bg-blue-200 text-center text-4xl text-black">Icones</h2>
   <div class="grid w-64 grid-cols-4 justify-items-center gap-12">
-    <img src="src/assets/icones/arrow-narrow-up.svg" alt="fleche" />
-    <img src="src/assets/icones/facebook-app-symbol.svg" alt="facebook blanc" />
-    <img src="src/assets/icones/insta-noir.svg" alt="instagram-noir" />
-    <img src="src/assets/icones/instagram.svg" alt="instagram blanc" />
-    <img src="src/assets/icones/spotify-color.svg" alt="spotify couleur" />
-    <img src="src/assets/icones/spotify.svg" alt="spotify noir" />
-    <img src="src/assets/icones/twitter-noir.svg" alt="twitter noir" />
-    <img src="src/assets/icones/twitter.svg" alt="twitter blanc" />
+    <img src="/icones/arrow-narrow-up.svg" alt="fleche" />
+    <img src="/icones/facebook-app-symbol.svg" alt="facebook blanc" />
+    <img src="/icones/insta-noir.svg" alt="instagram-noir" />
+    <img src="/icones/instagram.svg" alt="instagram blanc" />
+    <img src="/icones/spotify.svg" alt="spotify noir" />
+    <img src="/icones/twitter-noir.svg" alt="twitter noir" />
+    <img src="/icones/twitter.svg" alt="twitter blanc" />
   </div>
 </template>
 

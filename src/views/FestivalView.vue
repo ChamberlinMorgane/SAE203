@@ -11,20 +11,20 @@
     <div class="h-1 w-full bg-white"></div>
   </div>
 
-  <img class="m-auto flex h-2/6 w-3/6 justify-center" src="src/assets/images/plan.jpg" alt="plan du festival" />
+  <img class="m-auto flex h-2/6 w-3/6 justify-center" src="/img/plan.jpg" alt="plan du festival" />
   <p class="m-auto mt-11 flex justify-center text-2xl font-bold">Découvrez nos 3 grandes scene et nos deux petite</p>
   <p class="m-auto mt-11 flex justify-center text-3xl font-bold">Les grandes scènes</p>
   <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
     <div>
-      <img class="mt-20 h-5/6 w-5/6" src="src/assets/images/scenenord.jpg" alt="scene nord" />
+      <img class="mt-20 h-5/6 w-5/6" src="/img/scenenord.jpg" alt="scene nord" />
       <Bouton nom="Scène Nord" class="m-auto w-1/2 justify-center" />
     </div>
     <div>
-      <img class="mt-20 h-5/6 w-5/6" src="src/assets/images/scenesud.jpg" alt="scene sud" />
+      <img class="mt-20 h-5/6 w-5/6" src="/img/scenesud.jpg" alt="scene sud" />
       <Bouton nom="Scène Sud" class="m-auto w-1/2 justify-center bg-yellow-400" />
     </div>
     <div>
-      <img class="mt-20 h-5/6 w-5/6" src="src/assets/images/sceneest.jpg" alt="scene est" />
+      <img class="mt-20 h-5/6 w-5/6" src="/img/sceneest.jpg" alt="scene est" />
       <Bouton nom="Scène Est" class="m-auto w-1/2 justify-center bg-green-400" />
     </div>
   </div>
@@ -33,12 +33,12 @@
 
   <div class="grid grid-cols-1 justify-items-center lg:w-4/6 lg:grid-cols-2">
     <div>
-      <img class="mt-11 h-5/6 w-5/6" src="src/assets/images/scenecentre.jpg" alt="scene centre" />
+      <img class="mt-11 h-5/6 w-5/6" src="/img/scenecentre.jpg" alt="scene centre" />
       <Bouton nom="Scène Centre" class="m-auto w-1/2 justify-center bg-pink-400" />
     </div>
 
     <div>
-      <img class="mt-11 h-5/6 w-5/6" src="src/assets/images/sceneouest.jpg" alt="scene ouest" />
+      <img class="mt-11 h-5/6 w-5/6" src="/img/sceneouest.jpg" alt="scene ouest" />
       <Bouton nom="Scène Ouest" class="m-auto w-1/2 justify-center bg-blue-400" />
     </div>
   </div>
@@ -46,19 +46,19 @@
   <p class="m-auto mt-56 flex justify-center">Notre équipe qui s'est occupé de mettre en oeuvre ce fantastiqur festival</p>
 
   <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
-    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne1.jpg" alt="premiere personne" />
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="/img/personne1.jpg" alt="premiere personne" />
     <p class="font-work-sans">Community manager</p>
-    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne2.jpg" alt="deuxième personne" />
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="/img/personne2.jpg" alt="deuxième personne" />
     <p class="font-work-sans">chef de projet</p>
-    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne3.jpg" alt="troisième personne" />
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="/img/personne3.jpg" alt="troisième personne" />
     <p class="font-work-sans">Organistrice</p>
-    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne4.jpg" alt="quatrième personne" />
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="/img/personne4.jpg" alt="quatrième personne" />
     <p class="font-work-sans">Juriste</p>
-    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne5.jpg" alt="cinquième personne" />
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="/img/personne5.jpg" alt="cinquième personne" />
     <p class="font-work-sans">Community manager</p>
-    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne6.jpg" alt="sixième personne" />
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="/img/personne6.jpg" alt="sixième personne" />
     <p class="font-work-sans">Trésorier</p>
-    <img class="h-6/6 mt-10 mb-10 w-2/6" src="src/assets/images/personne7.jpg" alt="septième personne" />
+    <img class="h-6/6 mt-10 mb-10 w-2/6" src="/img/personne7.jpg" alt="septième personne" />
     <p class="font-work-sans">Organisateur</p>
   </div>
 
@@ -82,8 +82,8 @@
       Ce festival est fait de facon ethique avec trois équipes qui oeuvre tous les jours au bon entretient de l’endroit
     </p>
   </div>
-  <img class="ml-auto h-1/3 w-1/3" src="src/assets/images/image-a-propos-poubelle.jpg" alt="image poubelle" />
-  <img class="h-1/3 w-1/3" src="src/assets/images/image-a-propos-recyclage.jpg" alt="image recyclage" />
+  <img class="ml-auto h-1/3 w-1/3" src="/img/image-a-propos-poubelle.jpg" alt="image poubelle" />
+  <img class="h-1/3 w-1/3" src="/img/image-a-propos-recyclage.jpg" alt="image recyclage" />
   <div
     class="
       relative

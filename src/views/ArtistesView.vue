@@ -16,22 +16,22 @@
 
     <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="DJ SNAKE" image="/src/assets/images/djsnake.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="DJ SNAKE" image="/img/djsnake.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="ED SHEERAN" image="/src/assets/images/edsheeran.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="ED SHEERAN" image="/img/edsheeran.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="ANGELE" image="/src/assets/images/angele.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="ANGELE" image="/img/angele.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="DAVID GUETTA" image="/src/assets/images/davidguetta.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="DAVID GUETTA" image="/img/davidguetta.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="OMAR RUDBERG" image="/src/assets/images/omarudberg.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="OMAR RUDBERG" image="/img/omarudberg.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="GIRL IN RED" image="/src/assets/images/girlinred.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="GIRL IN RED" image="/img/girlinred.jpg" /></a>
       </div>
     </div>
 
@@ -40,13 +40,13 @@
 
     <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="BLACKPINK" image="/src/assets/images/blackpink.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="BLACKPINK" image="/img/blackpink.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="BIBI" image="/src/assets/images/bibi.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="BIBI" image="/img/bibi.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="CHANMINA" image="/src/assets/images/chanmina.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="CHANMINA" image="/img/chanmina.jpg" /></a>
       </div>
     </div>
 
@@ -55,10 +55,10 @@
 
     <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2">
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="FALLY IPUPA" image="/src/assets/images/faillyipupa.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="FALLY IPUPA" image="/img/faillyipupa.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="DIZZY DROSS" image="/src/assets/images/dizzydross.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="DIZZY DROSS" image="/img/dizzydross.jpg" /></a>
       </div>
     </div>
 
@@ -67,16 +67,16 @@
 
     <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="COLDPLAY" image="/src/assets/images/coldplay.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="COLDPLAY" image="/img/coldplay.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="DOJA CAT" image="/src/assets/images/cardib.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="DOJA CAT" image="/img/cardib.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="OLIVIA RODRIGO" image="/src/assets/images/oliviarudberg.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="OLIVIA RODRIGO" image="/img/oliviarudberg.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="SABRINA CARPENTER" image="/src/assets/images/sabrina.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="SABRINA CARPENTER" image="/img/sabrina.jpg" /></a>
       </div>
     </div>
 
@@ -85,10 +85,10 @@
 
     <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2">
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="SHAKIRA" image="/src/assets/images/shakira.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="SHAKIRA" image="/img/shakira.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="DADDY YANKEE" image="/src/assets/images/daddyyankee.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="DADDY YANKEE" image="/img/daddyyankee.jpg" /></a>
       </div>
     </div>
 
@@ -97,10 +97,10 @@
 
     <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2">
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="TONES AND I " image="/src/assets/images/tonesandi.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="TONES AND I " image="/img/tonesandi.jpg" /></a>
       </div>
       <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="SIA" image="/src/assets/images/sia.jpg" /></a>
+        <a href="artiste"><CardArtist class="mb-10" nom="SIA" image="/img/sia.jpg" /></a>
       </div>
     </div>
 
@@ -109,7 +109,7 @@
       class="m-auto mt-32 flex w-3/6 justify-center border-4 border-black bg-white text-5xl font-extrabold"
     />
     <div class="m-auto my-32 flex justify-center justify-items-center gap-11">
-      <a href="artistes"><img class="w-16" src="src/assets/icones/arrow-narrow-up.svg" alt="flèche" /></a>
+      <a href="artistes"><img class="w-16" src="/icones/arrow-narrow-up.svg" alt="flèche" /></a>
       <a href="artistes"><p class="text-2xl font-bold">Découvrez la programmation pour ce week-end de folie</p></a>
     </div>
   </main>

@@ -71,9 +71,9 @@
     </div>
     <Logo />
     <div class="grid grid-cols-3 justify-center gap-5">
-      <a href="https://www.instagram.com/"><img class="px-2" src="src/assets/icones/instagram.svg" alt="icone instagram" /></a>
-      <a href="https://www.facebook.com/"><img class="px-2" src="src/assets/icones/facebook-app-symbol.svg" alt=" icone facebook" /></a>
-      <a href="https://www.twitter.com/"><img class="px-2" src="src/assets/icones/twitter.svg" alt="" /></a>
+      <a href="https://www.instagram.com/"><img class="px-2" src="/icones/instagram.svg" alt="icone instagram" /></a>
+      <a href="https://www.facebook.com/"><img class="px-2" src="/icones/facebook-app-symbol.svg" alt=" icone facebook" /></a>
+      <a href="https://www.twitter.com/"><img class="px-2" src="/icones/twitter.svg" alt="" /></a>
     </div>
     <div class="mx-auto grid grid-cols-2 gap-x-10 gap-y-2 text-left font-medium text-black">
       <div>
