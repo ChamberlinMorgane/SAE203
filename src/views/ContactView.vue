@@ -10,13 +10,13 @@
     </div>
     <div class="h-1 w-full bg-white"></div>
   </div>
-  <form class="mx-56 mb-14 w-full max-w-lg">
-    <div class="-mx-3 mb-6 flex flex-wrap">
+
+  <form class="mb-14 w-full max-w-xs">
+    <div class="mb-6 flex flex-wrap">
       <div class="mb-6 w-full px-3 md:mb-0 md:w-1/2">
         <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-white" for="grid-first-name"> Prénom </label>
         <input
           class="
-            text-grey-600
             mb-3
             block
             w-full
@@ -27,6 +27,7 @@
             py-3
             px-4
             leading-tight
+            text-black
             focus:bg-white focus:outline-none
           "
           id="grid-first-name"
@@ -36,10 +37,9 @@
         <p class="text-xs italic text-red-500">Veillez completer ce champ</p>
       </div>
       <div class="w-full px-3 md:w-1/2">
-        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700" for="grid-last-name"> Nom </label>
+        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-white" for="grid-last-name"> Nom </label>
         <input
           class="
-            text-grey-600
             block
             w-full
             appearance-none
@@ -49,6 +49,7 @@
             py-3
             px-4
             leading-tight
+            text-black
             focus:border-gray-500 focus:bg-white focus:outline-none
           "
           id="grid-last-name"
@@ -57,7 +58,7 @@
         />
       </div>
     </div>
-    <div class="-mx-3 mb-6 flex flex-wrap">
+    <div class="mb-6 flex flex-wrap">
       <div class="w-full px-3">
         <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-white" for="grid-password"> E-mail </label>
         <input
@@ -72,7 +73,7 @@
             py-3
             px-4
             leading-tight
-            text-white
+            text-black
             focus:border-gray-500 focus:bg-white focus:outline-none
           "
           id="email"
@@ -81,7 +82,7 @@
       </div>
     </div>
 
-    <div class="-mx-3 mb-6 flex flex-wrap">
+    <div class="mb-6 flex flex-wrap">
       <div class="w-full px-3">
         <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-white" for="grid-password"> Objet </label>
         <input
@@ -96,7 +97,7 @@
             py-3
             px-4
             leading-tight
-            text-gray-600
+            text-black
             focus:border-gray-500 focus:bg-white focus:outline-none
           "
           id="email"
@@ -311,9 +312,9 @@
       </div>
     </div>
 
-    <div class="-mx-3 mb-6 flex flex-wrap">
+    <div class="mb-6 flex flex-wrap">
       <div class="w-full px-3">
-        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700" for="grid-password"> Votre message </label>
+        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-white" for="grid-password"> Votre message </label>
         <textarea
           class="
             no-resize
@@ -329,7 +330,7 @@
             py-3
             px-4
             leading-tight
-            text-gray-700
+            text-black
             focus:border-gray-500 focus:bg-white focus:outline-none
           "
           id="message"
