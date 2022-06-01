@@ -1,5 +1,5 @@
 <template>
-  <div class="w-96 rounded-lg bg-cyan-800">
+  <div class="max-w-xs rounded-lg bg-cyan-800 sm:max-w-lg lg:max-w-2xl">
     <div class="container mx-auto">
       <div class="block">
         <div class="flex flex-col">
