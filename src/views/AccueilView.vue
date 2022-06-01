@@ -14,7 +14,7 @@
         <img src="/img/carouselimg4.jpg" alt="image concert" />
       </div>
     </div>
-    <div class="m-auto mt-20 mb-8 h-60 w-4/6 shrink-0 justify-center border-4 border-solid border-yellow-500 bg-yellow-100">
+    <div class="m-auto mt-20 mb-8 h-auto w-4/6 shrink-0 justify-center border-4 border-solid border-yellow-500 bg-yellow-100">
       <p class="mt-12 mr-7 ml-7 shrink-0 text-2xl text-black">
         DU VENDREDI 1ER JUILLET 2022 AU DIMANCHE 3 JUILLET 2022 LA VILLE DE GRENOBLE OUVRE L’UN DES PLUS GRAND FESTIVAL DE FRANCE MAIS
         ATTENTION LES PLACES SONT LIMITÉES ALORS NE PERDEZ PAS DE TEMPS RESERVEZ VOS PLACES

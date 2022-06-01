@@ -11,20 +11,24 @@
     <div class="h-1 w-full bg-white"></div>
   </div>
 
-  <img class="m-auto flex h-2/6 w-3/6 justify-center" src="/img/plan.jpg" alt="plan du festival" />
-  <p class="m-auto mt-11 flex justify-center text-2xl font-bold">Découvrez nos 3 grandes scene et nos deux petite</p>
-  <p class="m-auto mt-11 flex justify-center text-3xl font-bold">Les grandes scènes</p>
+  <img class="m-auto flex h-auto w-5/6 justify-center" src="/img/plan.jpg" alt="plan du festival" />
+  <a href="/img/plan-du-festival.pdf" download rel="noopener noreferrer" target="_blank"
+    ><img class="w-5 lg:w-14" src="/icones/download.png" alt="#"
+  /></a>
+  <p class="m-auto mt-11 flex justify-center text-xl font-bold lg:text-2xl">Découvrez nos 3 grandes scene et nos deux petite</p>
+  <p class="m-auto mt-11 flex justify-center text-xl font-bold lg:text-3xl">Les grandes scènes</p>
+
   <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
     <div>
-      <img class="mt-20 h-5/6 w-5/6" src="/img/scenenord.jpg" alt="scene nord" />
+      <img class="m-auto mt-20 mb-10 flex h-auto w-5/6 justify-center" src="/img/scenenord.jpg" alt="scene nord" />
       <Bouton nom="Scène Nord" class="m-auto w-1/2 justify-center" />
     </div>
     <div>
-      <img class="mt-20 h-5/6 w-5/6" src="/img/scenesud.jpg" alt="scene sud" />
+      <img class="m-auto mt-20 mb-10 flex h-auto w-5/6 justify-center" src="/img/scenesud.jpg" alt="scene sud" />
       <Bouton nom="Scène Sud" class="m-auto w-1/2 justify-center bg-yellow-400" />
     </div>
     <div>
-      <img class="mt-20 h-5/6 w-5/6" src="/img/sceneest.jpg" alt="scene est" />
+      <img class="m-auto mt-20 mb-10 flex h-auto w-5/6 justify-center" src="/img/sceneest.jpg" alt="scene est" />
       <Bouton nom="Scène Est" class="m-auto w-1/2 justify-center bg-green-400" />
     </div>
   </div>
@@ -33,12 +37,12 @@
 
   <div class="grid grid-cols-1 justify-items-center lg:w-4/6 lg:grid-cols-2">
     <div>
-      <img class="mt-11 h-5/6 w-5/6" src="/img/scenecentre.jpg" alt="scene centre" />
+      <img class="m-auto mt-11 mb-10 flex h-auto w-5/6 justify-center" src="/img/scenecentre.jpg" alt="scene centre" />
       <Bouton nom="Scène Centre" class="m-auto w-1/2 justify-center bg-pink-400" />
     </div>
 
     <div>
-      <img class="mt-11 h-5/6 w-5/6" src="/img/sceneouest.jpg" alt="scene ouest" />
+      <img class="m-auto mt-11 mb-10 flex h-auto w-5/6 justify-center" src="/img/sceneouest.jpg" alt="scene ouest" />
       <Bouton nom="Scène Ouest" class="m-auto w-1/2 justify-center bg-blue-400" />
     </div>
   </div>
@@ -61,48 +65,39 @@
     <img class="h-6/6 mt-10 mb-10 w-2/6" src="/img/personne7.jpg" alt="septième personne" />
     <p class="font-work-sans">Organisateur</p>
   </div>
-
-  <div
-    class="
-      relative
-      flex
-      h-[124px]
-      w-[1194px]
-      items-start
-      justify-start
-      gap-2.5
-      overflow-hidden
-      rounded-[27px]
-      border-4 border-white
-      bg-black
-      p-[22px]
-    "
-  >
-    <p class="h-20 w-[1150px] flex-grow self-stretch text-center text-[35px] text-white">
-      Ce festival est fait de facon ethique avec trois équipes qui oeuvre tous les jours au bon entretient de l’endroit
-    </p>
+  <div class="grid grid-cols-1">
+    <div
+      class="
+        relative
+        mt-11
+        flex
+        h-auto
+        items-start
+        justify-start
+        gap-2.5
+        overflow-hidden
+        rounded-[27px]
+        border-4 border-white
+        bg-black
+        p-[22px]
+      "
+    >
+      <p class="h-auto flex-grow self-stretch text-center text-base text-white lg:text-3xl">
+        Ce festival est fait de facon ethique avec trois équipes qui oeuvre tous les jours au bon entretient de l’endroit
+      </p>
+    </div>
+    <img class="m-auto flex h-2/3 w-2/3 justify-center" src="/img/image-a-propos-poubelle.jpg" alt="image poubelle" />
   </div>
-  <img class="ml-auto h-1/3 w-1/3" src="/img/image-a-propos-poubelle.jpg" alt="image poubelle" />
-  <img class="h-1/3 w-1/3" src="/img/image-a-propos-recyclage.jpg" alt="image recyclage" />
-  <div
-    class="
-      relative
-      flex
-      h-[218px]
-      w-[466px]
-      items-start
-      justify-start
-      gap-7
-      overflow-hidden
-      rounded-[14px]
-      border-4 border-white
-      bg-black
-      p-[25px]
-    "
-  >
-    <p class="h-[168px] w-[416px] flex-grow self-stretch text-center text-[35px] text-white">
-      Pour preserver cet endroit il sera mis a disposition des poubelles de trie et nous vous invitons a les utiliser.
-    </p>
+
+  <div class="grid grid-cols-1 lg:grid-cols-2">
+    <img class="h-3/3 m-auto mb-14 mt-20 flex w-2/3 justify-center" src="/img/image-a-propos-recyclage.jpg" alt="image recyclage" />
+    <div
+      class="relative flex h-auto items-start justify-start gap-7 overflow-hidden rounded-[14px] border-4 border-white bg-black p-[25px]"
+    >
+      <p class="h-auto flex-grow self-stretch text-center text-base text-white lg:text-3xl">
+        Pour preserver cet endroit il sera mis a disposition des poubelles de trie et nous vous invitons a les utiliser.
+      </p>
+    </div>
   </div>
 </template>
 
