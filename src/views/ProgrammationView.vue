@@ -30,7 +30,7 @@
     >
   </p>
 
-  <Bouton nom="2 Juillet !!" class="float-right mr-11 flex w-1/6 bg-indigo-400 text-xl font-extrabold lg:text-5xl" />
+  <Bouton nom="2 Juillet !!" class="ml-auto mr-11 flex w-1/6 bg-indigo-400 text-xl font-extrabold lg:text-5xl" />
   <p class="m-auto mb-11 w-2/3 justify-center text-center font-bold text-white">
     <span class="h-[296px] text-center font-work-sans text-xl font-bold text-white lg:text-7xl">DJ SNAKE</span
     ><span class="h-[296px] text-center font-work-sans text-lg font-bold text-white lg:text-6xl"
@@ -56,10 +56,11 @@
     ><span class="h-[296px] text-center font-work-sans text-xl font-bold text-white lg:text-7xl">SIA</span>
   </p>
 
-  <Bouton
-    nom="Achetez vos billet dès maintenant"
-    class="m-auto mt-32 flex w-3/6 justify-center border-4 border-black bg-white text-xl lg:text-5xl"
-  />
+  <a href="404"
+    ><Bouton
+      nom="Achetez vos billet dès maintenant"
+      class="m-auto mt-32 flex w-3/6 justify-center border-4 border-black bg-white text-xl lg:text-5xl"
+  /></a>
   <div class="m-auto my-32 flex justify-center gap-11">
     <a href="artistes"><img class="w-16" src="/icones/arrow-narrow-up.svg" alt="flèche" /></a>
     <a href="artistes"><p class="text-2xl font-bold">Découvrez la liste complet des artistes présent au festival</p></a>
