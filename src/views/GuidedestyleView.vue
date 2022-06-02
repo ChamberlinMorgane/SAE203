@@ -1,5 +1,15 @@
 <template>
-  <h1 class="font-inter text-tonic-200 text-decoration-line: mt-48 text-center text-3xl underline">GUIDE DE STYLE</h1>
+  <div class="mt-20 mb-20">
+    <div class="h-1 w-full bg-white"></div>
+    <div class="flex items-center justify-between py-8">
+      <div class="h-1 w-8 bg-white sm:w-1/3"></div>
+      <div class="flex w-8 justify-around md:w-1/3">
+        <h2 class="font-staatliches text-3xl">GUIDE DE STYLE</h2>
+      </div>
+      <div class="h-1 w-8 bg-white sm:w-1/3"></div>
+    </div>
+    <div class="h-1 w-full bg-white"></div>
+  </div>
 
   <h2 class="font-inter my-10 w-full bg-blue-200 text-center text-4xl text-black">Couleurs</h2>
   <div class="grid grid-cols-2 justify-items-center">

@@ -28,13 +28,13 @@
 
       <img src="/img/sabrina.jpg" class="flex-grow self-stretch rounded-[32px] object-cover" />
     </div>
-    <div class="rounded-[32px] bg-indigo-100 p-10">
-      <p class="h-[68px] w-4/6 flex-grow self-stretch text-center font-work-sans text-4xl font-extrabold text-black">
+    <div class="m-auto h-auto w-5/6 justify-center rounded-[32px] bg-indigo-100 p-10">
+      <p class="h-[68px] w-auto flex-grow self-stretch text-center font-work-sans text-lg font-extrabold text-black lg:w-4/6 lg:text-4xl">
         DÉCOUVRIR TOUTE LA PROGRAMMATION
       </p>
     </div>
-    <Bouton nom="Réservez vos billets en quelques cliques !!" class="m-auto w-3/6 justify-center" />
-    <img class="h-auto w-3/5" src="/img/prix.png" alt="prix" />
+    <a href="404"><Bouton nom="Réservez vos billets en quelques cliques !!" class="m-auto w-3/6 justify-center" /></a>
+    <img class="w-6/6 h-auto" src="/img/prix.png" alt="prix" />
   </main>
 </template>
 <script>
