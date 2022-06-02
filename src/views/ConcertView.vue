@@ -33,48 +33,21 @@
   <a href="https://open.spotify.com/artist/3QVolfxko2UyCOtexhVTli"
     ><img class="m-auto mt-36 mb-32 flex w-5/6 justify-center lg:w-2/6" src="/img/SPOTIFY.jpg" alt="card spotify"
   /></a>
-  <p class="m-auto flex justify-center text-center text-2xl">RETROUVEZ D’AUTRES ARTISTES LES MEMES JOURS QU’ELLE !!!</p>
+  <p class="m-auto flex justify-center text-center text-2xl">RETROUVEZ LES AUTRES CONCERT DU WEEK-END !!!</p>
   <div class="m-auto flex h-2 w-3/6 justify-center bg-purple-700"></div>
 
   <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
     <div><Card2 class="mb-10 mt-20" nom="DOJA CAT" dates="2022-02-05" image="/img/cardib.jpg" /></div>
-    <div>
-      <CardArtist class="mb-10 mt-20" nom="COLDPLAY" image="/img/coldplay.jpg" />
-    </div>
-    <div>
-      <CardArtist class="mb-10 mt-20" nom="SIA" image="/img/sia.jpg" />
-    </div>
-    <div>
-      <CardArtist class="mb-10" nom="DAVID GUETTA" image="/img/davidguetta.jpg" />
-    </div>
-    <div>
-      <CardArtist class="mb-10" nom="ED SHEERAN" image="/img/edsheeran.jpg" />
-    </div>
-    <div>
-      <CardArtist class="mb-10" nom="DADDY YANKEE" image="/img/daddyyankee.jpg" />
-    </div>
-    <div>
-      <CardArtist class="mb-10" nom="OLIVIA RODRIGO" image="/img/oliviarudberg.jpg" />
-    </div>
-    <div>
-      <CardArtist class="mb-10" nom="OMAR RUDBERG" image="/img/omarudberg.jpg" />
-    </div>
-    <div>
-      <CardArtist class="mb-10" nom="BIBI" image="/img/bibi.jpg" />
-    </div>
-    <div>
-      <CardArtist class="mb-10" nom="CHANMINA" image="/img/chanmina.jpg" />
-    </div>
-    <div>
-      <CardArtist class="mb-10" nom="FALLY IPUPA" image="/img/faillyipupa.jpg" />
-    </div>
+    <div></div>
   </div>
-</template>
 
+  <RouterLink to="/concert" v-for="con in SceneNord" :key="con"><Card2 :nom="con.nom" :image="con.image" :dates="con.dates" /></RouterLink>
+</template>
 
 
 <script>
 import Card2 from "../components/Card2.vue";
+
 import {
   getFirestore,
   collection,
@@ -100,33 +73,71 @@ export default {
   },
   data() {
     return {
-      listeConcerts: [],
+      listeConcert: [],
+      qSceneCentre: 5,
+      qSceneSud: 4,
+      qSceneNord: 6,
+      qSceneOuest: 1,
+      qSceneEst: 2,
     };
   },
   mounted() {
-    this.getConcerts();
+    this.getConcert();
   },
   methods: {
-    async getConcerts() {
+    async getConcert() {
       const firestore = getFirestore();
-      const dbCon = collection(firestore, "Concerts");
+      const dbCon = collection(firestore, "Concert");
       const q = query(dbCon, orderBy("nom", "asc"));
       await onSnapshot(q, (snapshot) => {
-        this.listeConcerts = snapshot.docs.map((doc) => ({
+        this.listeConcert = snapshot.docs.map((doc) => ({
           id: doc.id,
           ...doc.data(),
         }));
-        this.listeConcerts.forEach(function (personne) {
+        this.listeConcert.forEach(function (personne) {
           const storage = getStorage();
-          const spaceRef = ref(storage, "concerts/" + personne.photo);
+          const spaceRef = ref(storage, "Concert/" + personne.image);
           getDownloadURL(spaceRef)
             .then((url) => {
-              personne.photo = url;
+              personne.image = url;
             })
             .catch((error) => {
               console.log("erreur download url", error);
             });
         });
+      });
+    },
+  },
+
+  computed: {
+    SceneCentre() {
+      let query = this.qSceneCentre;
+      return this.listeConcert.filter(function (con) {
+        return con.scene.includes(query);
+      });
+    },
+    SceneSud() {
+      let query = this.qSceneSud;
+      return this.listeConcert.filter(function (con) {
+        return con.scene.includes(query);
+      });
+    },
+    SceneNord() {
+      let query = this.qSceneNord;
+      return this.listeConcert.filter(function (con) {
+        return con.scene.includes(query);
+      });
+    },
+    SceneEst() {
+      let query = this.qSceneEst;
+      return this.listeConcert.filter(function (con) {
+        return con.scene.includes(query);
+      });
+    },
+    SceneOuest() {
+      let query = this.qSceneOuest;
+      return this.listeConcert.filter(function (con) {
+        return con.scene.includes(query);
       });
     },
   },

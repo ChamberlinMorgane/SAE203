@@ -1,10 +1,10 @@
 <template>
-  <div class="max-w-xs rounded-lg bg-cyan-800 sm:max-w-lg lg:max-w-2xl">
+  <div class="max-w-xs rounded-xl bg-cyan-800 sm:max-w-lg lg:max-w-2xl">
     <div class="container mx-auto">
       <div class="block">
         <div class="flex flex-col">
           <div class="p-4">
-            <img class="rounded-lg" :src="image" alt="artiste" />
+            <img class="rounded-sm" :src="image" alt="artiste" />
           </div>
           <figcaption class="p-4 text-center">
             <h3 class="py-1 font-permanent-marker text-2xl font-semibold">{{ nom }}</h3>

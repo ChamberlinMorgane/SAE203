@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-xs rounded-lg bg-cyan-800 sm:max-w-lg lg:max-w-2xl">
+  <div class="max-w-xs rounded-lg bg-white sm:max-w-lg lg:max-w-2xl">
     <div class="container mx-auto">
       <div class="block">
         <div class="flex flex-col">
@@ -7,8 +7,8 @@
             <img class="rounded-lg" :src="image" alt="artiste" />
           </div>
           <figcaption class="p-4 text-center">
-            <h3 class="py-1 font-permanent-marker text-2xl font-semibold">{{ nom }}</h3>
-            <p>{{ dates }}</p>
+            <h3 class="py-1 font-permanent-marker text-2xl font-semibold text-black">{{ nom }}</h3>
+            <p class="text-black">{{ dates }}</p>
           </figcaption>
         </div>
       </div>

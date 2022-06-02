@@ -75,15 +75,13 @@
       <a href="https://www.facebook.com/"><img class="px-2" src="/icones/facebook-app-symbol.svg" alt=" icone facebook" /></a>
       <a href="https://www.twitter.com/"><img class="px-2" src="/icones/twitter.svg" alt="" /></a>
     </div>
-    <div class="mx-auto grid grid-cols-2 gap-x-10 gap-y-2 text-left font-medium text-black">
-      <div>
-        <a href="./programmation">Programmation</a>
-        <a href="./festival">Festival</a>
-        <a href="./artistes">Artistes</a>
-        <a href="./contact">Contact</a>
-        <a href="./mentionsLegales">Mentions légales</a>
-        <a href="./guidestyle">Guide de style</a>
-      </div>
+    <div class="mx-auto grid grid-cols-2 gap-x-10 gap-y-2 text-left text-base text-black">
+      <a href="./programmation">Programmation</a>
+      <a href="./festival">Festival</a>
+      <a href="./artistes">Artistes</a>
+      <a href="./contact">Contact</a>
+      <a href="./mentionsLegales">Mentions légales</a>
+      <a href="./guidestyle">Guide de style</a>
     </div>
   </div>
 </template>

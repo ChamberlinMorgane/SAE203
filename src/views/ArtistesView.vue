@@ -11,6 +11,8 @@
       </div>
       <div class="h-1 w-full bg-white"></div>
     </div>
+
+    
     <p class="mt-28 flex justify-center text-2xl font-bold text-white">EUROPE</p>
     <line class="m-auto mb-20 flex w-48 justify-center border-4 border-solid bg-white"></line>
 

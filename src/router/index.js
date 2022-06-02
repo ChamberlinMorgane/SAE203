@@ -9,6 +9,7 @@ import MentionlegalesView from '../views/MentionlegalesView.vue'
 import ArtisteView from '../views/ArtisteView.vue'
 import GuidedestyleView from '../views/GuidedestyleView.vue'
 import NotFoundComponent from '../views/404.vue'
+import ChoixView from '../views/ChoixView.vue'
 
 
 const router = createRouter({
@@ -23,7 +24,8 @@ const router = createRouter({
     { path: '/mentionlegales', name: 'Mentionlegales', component: MentionlegalesView },
     { path: '/artiste', name: 'Artiste', component: ArtisteView },
     { path: '/guidestyle', name: 'Guidedestyle', component: GuidedestyleView },
-    { path: '/:pathMatch(.*)', component: NotFoundComponent }
+    { path: '/:pathMatch(.*)', component: NotFoundComponent },
+    { path: '/voschoix', name: 'ChoixView', component: ChoixView },
     // ici les autre routes
   ]
 })
