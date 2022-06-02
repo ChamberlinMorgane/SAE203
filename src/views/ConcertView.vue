@@ -12,14 +12,16 @@
   </div>
 
   <img class="h-2/6 w-full" src="/img/angele-concert.jpg" alt="angele" />
-  <div class="ml-auto mr-44 h-auto w-1/5 bg-gray-300">
+  <div class="mt-15 ml-auto mb-11 h-auto w-auto bg-gray-300 lg:mr-44">
     <p class="py:11 px-12 font-work-sans text-sm font-bold text-black lg:py-28 lg:text-2xl">
       Retrouvez Angele le 1er et le 3 Juillet prochain dans la grande scene Est à 21h pour un concert de dingue
     </p>
-    <div class="m-auto flex w-4 justify-center gap-11 lg:w-9">
-      <img src="/icones/spotify.svg" alt="spotify" />
-      <img src="/icones/insta-noir.svg" alt="instagram" />
-      <img src="/icones/twitter-noir.svg" alt="twitter" />
+    <div class="m-auto flex justify-center gap-5">
+      <a href="https://open.spotify.com/artist/3QVolfxko2UyCOtexhVTli"
+        ><img class="h-4 w-4 lg:h-9 lg:w-9" src="/icones/spotify.svg" alt="spotify"
+      /></a>
+      <a href="https://www.instagram.com/angele_vl/"><img class="h-4 w-4 lg:h-9 lg:w-9" src="/icones/insta-noir.svg" alt="instagram" /></a>
+      <a href="https://twitter.com/angele_vl"><img class="h-4 w-4 lg:h-9 lg:w-9" src="/icones/twitter-noir.svg" alt="twitter" /></a>
     </div>
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2">
@@ -28,8 +30,10 @@
     <img src="/img/angele1.jpg" />
     <img src="/img/angele2.jpg" />
   </div>
-  <img class="m-auto mt-36 mb-32 flex w-2/6 justify-center" src="/img/SPOTIFY.jpg" alt="card spotify" />
-  <p class="m-auto flex justify-center text-2xl">RETROUVEZ D’AUTRES ARTISTES LES MEMES JOURS QU’ELLE !!!</p>
+  <a href="https://open.spotify.com/artist/3QVolfxko2UyCOtexhVTli"
+    ><img class="m-auto mt-36 mb-32 flex w-5/6 justify-center lg:w-2/6" src="/img/SPOTIFY.jpg" alt="card spotify"
+  /></a>
+  <p class="m-auto flex justify-center text-center text-2xl">RETROUVEZ D’AUTRES ARTISTES LES MEMES JOURS QU’ELLE !!!</p>
   <div class="m-auto flex h-2 w-3/6 justify-center bg-purple-700"></div>
 
   <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">

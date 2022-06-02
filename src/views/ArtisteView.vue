@@ -23,10 +23,10 @@
         Seule ou en feat avec Dua lipa ou Dadju, Angèle se montre polyvalente musicalement et toujours au top.
       </p>
     </div>
-    <div class="m-auto mt-16 mb-12 flex w-10 justify-center gap-16">
-      <img src="/icones/spotify.svg" alt="spotify" />
-      <img src="/icones/twitter-noir.svg" alt="twitter" />
-      <img src="/icones/insta-noir.svg" alt="instagram" />
+    <div class="ljustify-center m-auto mt-16 mb-12 flex gap-16">
+      <a href="https://open.spotify.com/artist/3QVolfxko2UyCOtexhVTli"><img src="/icones/spotify.svg" alt="spotify" /></a>
+      <a href="https://twitter.com/angele_vl"><img src="/icones/twitter-noir.svg" alt="twitter" /></a>
+      <a href="https://www.instagram.com/angele_vl/"><img src="/icones/insta-noir.svg" alt="instagram" /></a>
     </div>
     <p class="mr-10 ml-10 text-center font-work-sans text-black">
       retrouver Angèle le 1 er et le 3 juillet sur la grande scène de notre festival pour un concert fantatique de la jeune belge

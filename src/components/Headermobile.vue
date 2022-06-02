@@ -2,7 +2,7 @@
   <header class="sticky top-0 z-50 flex h-16 w-screen items-center">
     <MenuAlt1Icon class="absolute right-4 h-8 w-8" @click="MenuOpen = !MenuOpen" v-if="!MenuOpen" />
     <XIcon class="absolute right-4 z-50 h-8 w-8" @click="MenuOpen = !MenuOpen" v-if="MenuOpen" />
-    <LogoHeader class="mr-auto h-11 w-auto" />
+    <a href="/"><LogoHeader class="mr-auto h-11 w-auto" /></a>
     <nav
       class="absolute left-0 top-0 bottom-0 right-0 h-screen -translate-x-full bg-blue-300 opacity-0"
       :class="MenuOpen && 'translate-x-0 opacity-100'"
