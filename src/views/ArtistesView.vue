@@ -15,93 +15,35 @@
     <line class="m-auto mb-20 flex w-48 justify-center border-4 border-solid bg-white"></line>
 
     <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="DJ SNAKE" image="/img/djsnake.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="ED SHEERAN" image="/img/edsheeran.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="ANGELE" image="/img/angele.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="DAVID GUETTA" image="/img/davidguetta.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="OMAR RUDBERG" image="/img/omarudberg.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="GIRL IN RED" image="/img/girlinred.jpg" /></a>
-      </div>
+      <RouterLink to="/artiste" v-for="art in Europe" :key="art"><CardArtist :nom="art.nom" :image="art.image" /></RouterLink>
     </div>
 
     <p class="mt-28 flex justify-center text-2xl font-bold text-white">ASIE</p>
     <line class="m-auto mb-20 flex w-48 justify-center border-4 border-solid bg-white"></line>
 
     <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="BLACKPINK" image="/img/blackpink.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="BIBI" image="/img/bibi.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="CHANMINA" image="/img/chanmina.jpg" /></a>
-      </div>
+      <RouterLink to="/artiste" v-for="art in Asie" :key="art"><CardArtist :nom="art.nom" :image="art.image" /></RouterLink>
     </div>
 
-    <p class="mt-28 flex justify-center text-2xl font-bold text-white">AFRIQUE</p>
-    <line class="m-auto mb-20 flex w-48 justify-center border-4 border-solid bg-white"></line>
-
-    <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2">
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="FALLY IPUPA" image="/img/faillyipupa.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="DIZZY DROSS" image="/img/dizzydross.jpg" /></a>
-      </div>
-    </div>
-
-    <p class="mt-28 flex justify-center text-2xl font-bold text-white">AMERIQUE DU NORD</p>
+    <p class="mt-28 flex justify-center text-2xl font-bold text-white">AMÉRIQUE DU NORD</p>
     <line class="m-auto mb-20 flex w-48 justify-center border-4 border-solid bg-white"></line>
 
     <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="COLDPLAY" image="/img/coldplay.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="DOJA CAT" image="/img/cardib.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="OLIVIA RODRIGO" image="/img/oliviarudberg.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="SABRINA CARPENTER" image="/img/sabrina.jpg" /></a>
-      </div>
+      <RouterLink to="/artiste" v-for="art in AmeriqueNord" :key="art"><CardArtist :nom="art.nom" :image="art.image" /></RouterLink>
     </div>
 
-    <p class="mt-28 flex justify-center text-2xl font-bold text-white">AMERIQUE DU SUD</p>
+    <p class="mt-28 flex justify-center text-2xl font-bold text-white">AMÉRIQUE DU SUD</p>
     <line class="m-auto mb-20 flex w-48 justify-center border-4 border-solid bg-white"></line>
 
-    <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2">
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="SHAKIRA" image="/img/shakira.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="DADDY YANKEE" image="/img/daddyyankee.jpg" /></a>
-      </div>
+    <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+      <RouterLink to="/artiste" v-for="art in AmeriqueSud" :key="art"><CardArtist :nom="art.nom" :image="art.image" /></RouterLink>
     </div>
 
     <p class="mt-28 flex justify-center text-2xl font-bold text-white">OCÉANIE</p>
     <line class="m-auto mb-20 flex w-48 justify-center border-4 border-solid bg-white"></line>
 
-    <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2">
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="TONES AND I " image="/img/tonesandi.jpg" /></a>
-      </div>
-      <div>
-        <a href="artiste"><CardArtist class="mb-10" nom="SIA" image="/img/sia.jpg" /></a>
-      </div>
+    <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+      <RouterLink to="/artiste" v-for="art in Oceanie" :key="art"><CardArtist :nom="art.nom" :image="art.image" /></RouterLink>
     </div>
 
     <Bouton
@@ -118,10 +60,100 @@
 <script>
 import CardArtist from "../components/Card.vue";
 import Bouton from "/src/components/Bouton.vue";
+import {
+  getFirestore,
+  collection,
+  doc,
+  query,
+  orderBy,
+  getDocs,
+  addDoc,
+  updateDoc,
+  deleteDoc,
+  onSnapshot,
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js";
+import {
+  getStorage, // Obtenir le Cloud Storage
+  ref, // Pour créer une référence à un fichier à uploader
+  getDownloadURL, // Permet de récupérer l'adress complète d'un fichier du Storage
+  uploadString, // Permet d'uploader sur le Cloud Storage une image en Base64
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
+
 export default {
   components: {
     CardArtist,
     Bouton,
+  },
+  data() {
+    return {
+      listeArtiste: [],
+      qEurope: 5,
+      qAsie: 4,
+      qOceanie: 6,
+      qAfrique: 1,
+      qAmeriqueNord: 2,
+      qAmeriqueSud: 3,
+    };
+  },
+  mounted() {
+    this.getArtiste();
+  },
+  methods: {
+    async getArtiste() {
+      const firestore = getFirestore();
+      const dbArt = collection(firestore, "Artiste");
+      const q = query(dbArt, orderBy("nom", "asc"));
+      await onSnapshot(q, (snapshot) => {
+        this.listeArtiste = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        this.listeArtiste.forEach(function (personne) {
+          const storage = getStorage();
+          const spaceRef = ref(storage, "Artistes/" + personne.image);
+          getDownloadURL(spaceRef)
+            .then((url) => {
+              personne.image = url;
+            })
+            .catch((error) => {
+              console.log("erreur download url", error);
+            });
+        });
+      });
+    },
+  },
+
+  computed: {
+    Europe() {
+      let query = this.qEurope;
+      return this.listeArtiste.filter(function (art) {
+        return art.continent.includes(query);
+      });
+    },
+    Asie() {
+      let query = this.qAsie;
+      return this.listeArtiste.filter(function (art) {
+        return art.continent.includes(query);
+      });
+    },
+    AmeriqueNord() {
+      let query = this.qAmeriqueNord;
+      return this.listeArtiste.filter(function (art) {
+        return art.continent.includes(query);
+      });
+    },
+    AmeriqueSud() {
+      let query = this.qAmeriqueSud;
+      return this.listeArtiste.filter(function (art) {
+        return art.continent.includes(query);
+      });
+    },
+    Oceanie() {
+      let query = this.qOceanie;
+      return this.listeArtiste.filter(function (art) {
+        return art.continent.includes(query);
+      });
+    },
   },
 };
 </script>

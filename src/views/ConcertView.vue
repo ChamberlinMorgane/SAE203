@@ -37,9 +37,7 @@
   <div class="m-auto flex h-2 w-3/6 justify-center bg-purple-700"></div>
 
   <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-    <div>
-      <CardArtist class="mb-10 mt-20" nom="DOJA CAT" image="/img/cardib.jpg" />
-    </div>
+    <div><Card2 class="mb-10 mt-20" nom="DOJA CAT" dates="2022-02-05" image="/img/cardib.jpg" /></div>
     <div>
       <CardArtist class="mb-10 mt-20" nom="COLDPLAY" image="/img/coldplay.jpg" />
     </div>
@@ -73,11 +71,64 @@
   </div>
 </template>
 
+
+
 <script>
-import CardArtist from "../components/Card.vue";
+import Card2 from "../components/Card2.vue";
+import {
+  getFirestore,
+  collection,
+  doc,
+  query,
+  orderBy,
+  getDocs,
+  addDoc,
+  updateDoc,
+  deleteDoc,
+  onSnapshot,
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js";
+import {
+  getStorage, // Obtenir le Cloud Storage
+  ref, // Pour créer une référence à un fichier à uploader
+  getDownloadURL, // Permet de récupérer l'adress complète d'un fichier du Storage
+  uploadString, // Permet d'uploader sur le Cloud Storage une image en Base64
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
+
 export default {
   components: {
-    CardArtist,
+    Card2,
+  },
+  data() {
+    return {
+      listeConcerts: [],
+    };
+  },
+  mounted() {
+    this.getConcerts();
+  },
+  methods: {
+    async getConcerts() {
+      const firestore = getFirestore();
+      const dbCon = collection(firestore, "Concerts");
+      const q = query(dbCon, orderBy("nom", "asc"));
+      await onSnapshot(q, (snapshot) => {
+        this.listeConcerts = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        this.listeConcerts.forEach(function (personne) {
+          const storage = getStorage();
+          const spaceRef = ref(storage, "concerts/" + personne.photo);
+          getDownloadURL(spaceRef)
+            .then((url) => {
+              personne.photo = url;
+            })
+            .catch((error) => {
+              console.log("erreur download url", error);
+            });
+        });
+      });
+    },
   },
 };
 </script>
