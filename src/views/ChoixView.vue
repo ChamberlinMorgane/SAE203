@@ -16,7 +16,7 @@
       <div class="flex items-center justify-center border-[1px] bg-gray-300 px-5 text-black">Style</div>
       <input class="w-auto text-black" type="text" placeholder="Nom du style" v-model="nom" required />
     </div>
-    <button type="button" @click.prevent="createMusique()"><PlusSmIcon class="w-7" /></button>
+    <button type="button" @click.prevent="createMusique()"><PlusSmIcon class="ml-auto w-7" /></button>
   </div>
   <h3 class="font-source-sans-pro m-auto w-4/5 text-base">Ajoutée son style de musique préféré</h3>
   <div class="mx-auto grid w-4/5 grid-cols-3" v-for="musique in listeMusique" :key="musique">
@@ -25,9 +25,9 @@
       <input class="w-auto text-black" type="text" placeholder="Nom du style" v-model="musique.nom" required />
     </div>
 
-    <div class="flex w-fit gap-3 px-3 text-black">
-      <button type="button" @click.prevent="updateMusique(musique)"><SaveIcon class="ml-auto w-7 text-white" /></button>
-      <button type="button" @click.prevent="deleteMusique(musique)"><MinusIcon class="w-7 text-white" /></button>
+    <div class="flex gap-5 px-3 text-right text-black">
+      <button type="button" @click.prevent="updateMusique(musique)"><SaveIcon class="float-right w-7 text-white" /></button>
+      <button type="button" @click.prevent="deleteMusique(musique)"><MinusIcon class="float-right w-7 text-white" /></button>
     </div>
   </div>
 </template>
