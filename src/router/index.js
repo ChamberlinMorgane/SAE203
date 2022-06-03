@@ -13,6 +13,7 @@ import ChoixView from '../views/ChoixView.vue'
 import ChoixArtisteView from '../views/ChoixArtisteView.vue'
 import CreateView from '../views/Choix/CreateView.vue'
 import UpdateView from '../views/Choix/UpdateView.vue'
+import DeleteView from '../views/Choix/DeleteView.vue'
 
 
 const router = createRouter({
@@ -31,7 +32,8 @@ const router = createRouter({
     { path: '/voschoix', name: 'ChoixView', component: ChoixView },
     { path: '/choixartiste', name: 'ChoixArtisteView', component: ChoixArtisteView },
     { path: '/createview', name: 'CreateView', component: CreateView },
-    { path: '/updateview', name: 'UpdateView', component: UpdateView },
+    { path: '/delete/:id', name: 'DeleteView', component: DeleteView },
+    { path: '/update/:id', name: 'UpdateView', component: UpdateView },
     // ici les autre routes
   ]
 })

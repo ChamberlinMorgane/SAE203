@@ -13,21 +13,21 @@
   <h2 class="font-source-sans-pro m-auto w-4/5 text-base">Ajoutée son style de musique préféré</h2>
   <div class="mx-auto grid w-4/5 grid-cols-3">
     <div class="flex h-10 overflow-hidden rounded-l-sm">
-      <div class="bg-true-gray-25 flex items-center justify-center border-[1px] px-5">Nom</div>
-      <input class="w-full text-black" type="text" placeholder="Nom du style" v-model="nom" required />
+      <div class="flex items-center justify-center border-[1px] bg-gray-300 px-5 text-black">Style</div>
+      <input class="w-auto text-black" type="text" placeholder="Nom du style" v-model="nom" required />
     </div>
-    <button type="button" @click.prevent="createMusique()"><SaveIcon class="w-7" /></button>
+    <button type="button" @click.prevent="createMusique()"><PlusSmIcon class="w-7" /></button>
   </div>
   <h3 class="font-source-sans-pro m-auto w-4/5 text-base">Ajoutée son style de musique préféré</h3>
   <div class="mx-auto grid w-4/5 grid-cols-3" v-for="musique in listeMusique" :key="musique">
-    <div class="flex h-10 overflow-hidden rounded-l-sm">
-      <div class="bg-true-gray-25 flex items-center justify-center border-[1px] px-5">Nom</div>
-      <input class="w-full text-black" type="text" placeholder="Nom du style" v-model="musique.nom" required />
+    <div class="flex h-10 rounded-l-sm">
+      <div class="flex items-center justify-center border-[1px] bg-gray-400 px-5 text-black">Nom</div>
+      <input class="w-auto text-black" type="text" placeholder="Nom du style" v-model="musique.nom" required />
     </div>
 
     <div class="flex w-fit gap-3 px-3 text-black">
-      <button type="button" @click.prevent="updateMusique(musique)"><SaveIcon class="w-7 text-white" /></button>
-      <button type="button" @click.prevent="deleteMusique(musique)"><TrashIcon class="w-7 text-white" /></button>
+      <button type="button" @click.prevent="updateMusique(musique)"><SaveIcon class="ml-auto w-7 text-white" /></button>
+      <button type="button" @click.prevent="deleteMusique(musique)"><MinusIcon class="w-7 text-white" /></button>
     </div>
   </div>
 </template>
@@ -45,7 +45,7 @@ import {
   onSnapshot,
   orderBy,
 } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js";
-import { SaveIcon, TrashIcon } from "@heroicons/vue/outline";
+import { SaveIcon, MinusIcon, PlusSmIcon } from "@heroicons/vue/outline";
 
 export default {
   name: "ListeView",
@@ -56,7 +56,7 @@ export default {
       filter: "",
     };
   },
-  components: { SaveIcon, TrashIcon },
+  components: { SaveIcon, MinusIcon, PlusSmIcon },
 
   mounted() {
     // Montage de la vue

@@ -1,26 +1,29 @@
 <template>
-  <main class="dark:bg-colors-black-gray">
-    <div class="flex items-center justify-between py-8 dark:text-white">
-      <div class="h-1 w-1/3 bg-yellow-500"></div>
-      <div class="flex w-1/3 justify-around">
-        <h2 class="font-staatliches text-xl">Quel est ton artiste préféré</h2>
+  <main>
+    <div class="mt-20 mb-20">
+      <div class="h-1 w-full bg-white"></div>
+      <div class="flex items-center justify-between py-8">
+        <div class="h-1 w-8 bg-white sm:w-1/3"></div>
+        <div class="flex w-8 justify-around md:w-1/3">
+          <h2 class="font-staatliches text-3xl">Quel est ton artiste préféré</h2>
+        </div>
+        <div class="h-1 w-8 bg-white sm:w-1/3"></div>
       </div>
-      <div class="h-1 w-1/3 bg-yellow-500"></div>
+      <div class="h-1 w-full bg-white"></div>
     </div>
+
     <div class="grid grid-cols-1 gap-8 p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      <RouterLink to="/artiste" v-for="art in listeArtistepref" :key="art"
-        ><card-3 :nom="art.nom" :image="art.image">
-          <RouterLink :to="{ name: 'Update', params: { id: art.id } }"><PencilAltIcon class="h-5 rounded-l-sm bg-white" /></RouterLink>
-          <RouterLink :to="{ name: 'Delete', params: { id: art.id } }"><TrashIcon class="h-5 rounded-r-sm bg-white" /></RouterLink> </card-3
-      ></RouterLink>
-      <RouterLink to="createview"><PlusCircleIcon /></RouterLink>
+      <div to="/artiste" v-for="art in listeArtistepref" :key="art">
+        <card-3 :id="art.id" :nom="art.nom" :image="art.image"> </card-3>
+      </div>
+      <RouterLink to="createview"><PlusCircleIcon class="m-auto flex w-20 justify-center border-4 border-white" /></RouterLink>
     </div>
   </main>
 </template>
 
 <script>
 import Card3 from "../components/Card3.vue";
-import { TrashIcon, PencilAltIcon, PlusCircleIcon } from "@heroicons/vue/outline";
+import { PlusCircleIcon, MinusIcon, PencilAltIcon } from "@heroicons/vue/outline";
 import {
   getFirestore,
   collection,
@@ -43,9 +46,9 @@ import {
 export default {
   components: {
     Card3,
-    TrashIcon,
-    PencilAltIcon,
     PlusCircleIcon,
+    MinusIcon,
+    PencilAltIcon,
   },
   data() {
     return {

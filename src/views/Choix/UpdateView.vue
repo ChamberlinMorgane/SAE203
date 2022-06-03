@@ -77,7 +77,7 @@ export default {
     async getArtistepref(id) {
       const firestore = getFirestore();
       const docRef = doc(firestore, "artistepref", id);
-      this.refArtiste = await getDoc(docRef);
+      this.refArtistepref = await getDoc(docRef);
       if (this.refArtistepref.exists()) {
         this.artistepref = this.refArtistepref.data();
         this.photoActuelle = this.artistepref.image;
