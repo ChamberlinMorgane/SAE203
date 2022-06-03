@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-xs rounded-xl sm:max-w-lg lg:max-w-2xl">
+  <div class="max-w-xs rounded-xl bg-cyan-800 sm:max-w-lg lg:max-w-2xl">
     <div class="container mx-auto">
       <div class="block">
         <div class="flex flex-col">
@@ -8,11 +8,8 @@
           </div>
           <figcaption class="p-4 text-center">
             <h3 class="py-1 font-permanent-marker text-2xl font-semibold">{{ nom }}</h3>
-            <a :href="'update/' + id"><PencilAltIcon class="h-5 rounded-l-sm" /></a>
-            <a :href="'delete/' + id"><TrashIcon class="h-5 rounded-r-sm" /></a>
-
-            <!-- <RouterLink :to="{ name: 'Update', params: { id: id } }"><PencilAltIcon class="h-5 rounded-l-sm" /></RouterLink>
-            <RouterLink :to="{ name: 'Delete', params: { id: id } }"><TrashIcon class="h-5 rounded-r-sm" /></RouterLink> -->
+            <a :href="'update/' + id"><PencilAltIcon class="h-auto w-5 rounded-l-sm lg:w-11" /></a>
+            <a :href="'delete/' + id"><TrashIcon class="h-auto w-5 rounded-r-sm lg:w-11" /></a>
           </figcaption>
         </div>
       </div>

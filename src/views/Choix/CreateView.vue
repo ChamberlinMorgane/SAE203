@@ -22,8 +22,8 @@
         </div>
       </div>
       <div class="grid w-full grid-cols-2 place-items-center">
-        <button class="w-fit bg-slate-100 px-6 py-3 text-black" type="submit" @click.prevent="updateMusique(musique)">
-          <SaveIcon class="w-7 text-white" />Ajouter
+        <button class="w-fit bg-slate-100 px-6 py-3 text-black" type="submit" @click.prevent="createArtistepref(artistepref)">
+          Ajouter
         </button>
       </div>
     </form>

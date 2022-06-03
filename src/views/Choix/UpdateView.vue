@@ -14,7 +14,7 @@
           <div class="flex h-10 overflow-hidden rounded-sm text-black">
             <div class="flex items-center justify-center border-[1px] bg-cyan-600 px-5">Photo</div>
             <div class="relative w-full">
-              <input type="file" class="relative w-full bg-slate-100 pl-2" ref="file" id="file" @change="previewImage" />
+              <input type="file" class="relative w-full pl-2 text-black" ref="file" id="file" @change="previewImage" />
               <label class="absolute left-0 top-0 bottom-0 flex w-full items-center justify-center bg-slate-100 pl-2" for="file"
                 >Sélectionner l'image</label
               >
@@ -24,7 +24,7 @@
       </div>
       <div class="grid w-full grid-cols-2 place-items-center">
         <button class="w-fit bg-slate-100 px-6 py-3 text-black" type="submit">Modifier</button>
-        <button class="w-fit bg-slate-100 px-6 py-3" type="button"><RouterLink to="/Artiste">Annuler</RouterLink></button>
+        <button class="w-fit bg-slate-100 px-6 py-3 text-black" type="button"><RouterLink to="/Artiste">Annuler</RouterLink></button>
       </div>
     </form>
   </div>

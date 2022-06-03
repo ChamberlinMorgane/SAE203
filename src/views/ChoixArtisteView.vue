@@ -16,7 +16,9 @@
       <div to="/artiste" v-for="art in listeArtistepref" :key="art">
         <card-3 :id="art.id" :nom="art.nom" :image="art.image"> </card-3>
       </div>
-      <RouterLink to="createview"><PlusCircleIcon class="m-auto flex w-20 justify-center border-4 border-white" /></RouterLink>
+      <RouterLink to="createview"
+        ><PlusCircleIcon class="m-auto flex w-20 justify-center border-4 border-white align-middle lg:w-40"
+      /></RouterLink>
     </div>
   </main>
 </template>

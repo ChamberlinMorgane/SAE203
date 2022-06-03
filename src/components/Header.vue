@@ -1,6 +1,6 @@
 <template>
   <template>
-    <div class="my-auto flex h-[118px] w-full flex-row gap-8 bg-blue-400 text-black">
+    <div class="my-auto grid grid-cols-5 gap-5 bg-blue-400 text-black">
       <a href="/"><LogoHeader class="mr-44 pr-4" /></a>
       <RouterLink class="pt-6 text-xl font-bold xl:text-3xl" to="/">Accueil</RouterLink>
       <RouterLink class="pt-6 text-xl font-bold xl:text-3xl" to="/programmation">Programmation</RouterLink>

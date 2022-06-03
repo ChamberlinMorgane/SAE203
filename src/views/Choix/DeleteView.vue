@@ -8,13 +8,13 @@
         <div class="grid grid-cols-1 gap-14">
           <div class="flex h-10 overflow-hidden rounded-sm text-black">
             <div class="flex items-center justify-center border-[1px] bg-cyan-600 px-5">Nom</div>
-            <input class="w-full bg-slate-100 pl-2" type="text" placeholder="Nom de l'artiste" v-model="artistepref.nom" disabled />
+            <input class="w-full pl-2 text-black" type="text" placeholder="Nom de l'artiste" v-model="artistepref.nom" disabled />
           </div>
         </div>
       </div>
       <div class="grid w-full grid-cols-2 place-items-center">
-        <button class="w-fit bg-slate-100 px-6 py-3" type="submit">Supprimer</button>
-        <button class="w-fit bg-slate-100 px-6 py-3" type="button"><RouterLink to="/choixartiste">Annuler</RouterLink></button>
+        <button class="w-fipx-6 py-3 text-black" type="submit">Supprimer</button>
+        <button class="w-fit px-6 py-3 text-black" type="button"><RouterLink to="/choixartiste">Annuler</RouterLink></button>
       </div>
     </form>
   </div>

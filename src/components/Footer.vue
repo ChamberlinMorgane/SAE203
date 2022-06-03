@@ -75,13 +75,15 @@
       <a href="https://www.facebook.com/"><img src="/icones/facebook-app-symbol.svg" alt=" icone facebook" /></a>
       <a href="https://www.twitter.com/"><img src="/icones/twitter.svg" alt="" /></a>
     </div>
-    <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-center gap-8 self-stretch">
+    <div class="grid grid-cols-4 gap-8">
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="./programmation">Programmation</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="./festival">Festival</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="./artistes">Artistes</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="./contact">Contact</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="./mentionsLegales">Mentions légales</a>
       <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="./guidestyle">Guide de style</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="./voschoix">Choix style</a>
+      <a class="flex-shrink-0 flex-grow-0 text-center text-xl font-medium text-black" href="./choixartiste">Choix artiste</a>
     </div>
   </div>
 </template>

@@ -11,7 +11,7 @@
             block
             w-full
             appearance-none
-            rounded-lg
+            rounded-3xl
             border border-purple-500
             bg-purple-100
             py-3
@@ -82,6 +82,8 @@
       <a href="./contact">Contact</a>
       <a href="./mentionsLegales">Mentions légales</a>
       <a href="./guidestyle">Guide de style</a>
+      <a href="./voschoix">Choix style</a>
+      <a href="./choixartiste">Choix artiste</a>
     </div>
   </div>
 </template>
