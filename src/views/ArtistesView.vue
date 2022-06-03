@@ -12,7 +12,6 @@
       <div class="h-1 w-full bg-white"></div>
     </div>
 
-    
     <p class="mt-28 flex justify-center text-2xl font-bold text-white">EUROPE</p>
     <line class="m-auto mb-20 flex w-48 justify-center border-4 border-solid bg-white"></line>
 
@@ -25,6 +24,13 @@
 
     <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
       <RouterLink to="/artiste" v-for="art in Asie" :key="art"><CardArtist :nom="art.nom" :image="art.image" /></RouterLink>
+    </div>
+
+    <p class="mt-28 flex justify-center text-2xl font-bold text-white">AFRIQUE</p>
+    <line class="m-auto mb-20 flex w-48 justify-center border-4 border-solid bg-white"></line>
+
+    <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+      <RouterLink to="/artiste" v-for="art in Afrique" :key="art"><CardArtist :nom="art.nom" :image="art.image" /></RouterLink>
     </div>
 
     <p class="mt-28 flex justify-center text-2xl font-bold text-white">AMÉRIQUE DU NORD</p>
@@ -128,6 +134,12 @@ export default {
   computed: {
     Europe() {
       let query = this.qEurope;
+      return this.listeArtiste.filter(function (art) {
+        return art.continent.includes(query);
+      });
+    },
+    Afrique() {
+      let query = this.qAfrique;
       return this.listeArtiste.filter(function (art) {
         return art.continent.includes(query);
       });

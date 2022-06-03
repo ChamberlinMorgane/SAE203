@@ -8,7 +8,8 @@
           </div>
           <figcaption class="p-4 text-center">
             <h3 class="py-1 font-permanent-marker text-2xl font-semibold text-black">{{ nom }}</h3>
-            <p class="text-black">{{ dates }}</p>
+            <p class="text-base text-black lg:text-xl">{{ dates }}</p>
+            <p class="text-base text-black lg:text-xl">{{ scene }}</p>
           </figcaption>
         </div>
       </div>
@@ -26,6 +27,7 @@ export default {
     nom: String,
     image: String,
     dates: String,
+    scene: String,
   },
   components: {},
 };

@@ -1,4 +1,15 @@
 <template>
+  <div class="mt-20 mb-20">
+    <div class="h-1 w-full bg-white"></div>
+    <div class="flex items-center justify-between py-8">
+      <div class="h-1 w-8 bg-white sm:w-1/3"></div>
+      <div class="flex w-8 justify-around md:w-1/3">
+        <h2 class="font-staatliches text-3xl">A VOUS DE FAIRE</h2>
+      </div>
+      <div class="h-1 w-8 bg-white sm:w-1/3"></div>
+    </div>
+    <div class="h-1 w-full bg-white"></div>
+  </div>
   <h2 class="font-source-sans-pro m-auto w-4/5 text-base">Ajoutée son style de musique préféré</h2>
   <div class="mx-auto grid w-4/5 grid-cols-3">
     <div class="flex h-10 overflow-hidden rounded-l-sm">
